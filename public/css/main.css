@@ -309,14 +309,14 @@ section .title {
     margin-top: 40px;
 }
 
-.cards {
+.service .cards {
     width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-left: 10em;
 }
-.card {
+.service .card {
     height: 370px;
     width: 270px;
     background-image: url('/images/package-img.png');
@@ -329,7 +329,7 @@ section .title {
  
 
 
-.card .head {
+.service .card .head {
     text-align: center;
     font-size: 1.2em;
     color: #001445;
@@ -337,7 +337,7 @@ section .title {
     margin-top:13px;
 }
 
-.card .price {
+.service .card .price {
     flex-grow: 1;
     align-self: center;
     justify-self: center;
@@ -346,7 +346,7 @@ section .title {
     margin-top:70px;
 }
 
-.card .more {
+.service .card .more {
     flex-grow: 1;
     margin-top:50px;
 }
