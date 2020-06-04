@@ -205,7 +205,7 @@
                 </div>   
               </li>
             
-              <li class="registration"><a href="{{asset('registration') }}" id="signUp" style="color:white;">Sign up</a></li>
+              <li class="registration"><a href="{{asset('register') }}" id="signUp" style="color:white;">Sign up</a></li>
             <li class="login"><a href="{{asset('login') }}" id="signIn" style="color:white;">Sign in</a></li>
          
         </ul>
