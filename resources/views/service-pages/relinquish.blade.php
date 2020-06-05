@@ -103,7 +103,10 @@
             <div id="m2">
                 <h3>Documents Required to Create A Relinquishment Deed </h3>
                 <ul>
-                    <li>	Particulars required for a Release Deed
+                    <li>@guest
+                        Particulars required for a Release Deed
+                        @else
+                        Particulars required for a Release Deed
                        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -111,9 +114,12 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
-                    <li>	Name of the Releasor, Age, Address
+                    <li>@guest
+                        Name of the Releasor, Age, Address
+                        @else
+                        Name of the Releasor, Age, Address
                       
                           <span>
                             <div class="upload-btn-wrapper">
@@ -121,30 +127,25 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                       @endguest
                     </li>
-                    <li>	Name of the Releasee, Age, Address
-                      
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                       
-                    </li>
-                    <li>	Property description
                     
+                    <li>@guest
+                      	Property description
+                         @else
+                         Property description
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
-                    <li>
-                        	If release on payment of consideration, then Details on consideration
+                    <li>@guest
+                          If release on payment of consideration, then Details on consideration
+                          @else
+                          If release on payment of consideration, then Details on consideration
                        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -152,13 +153,14 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                       @endguest
                         </li>
                    
                 </ul>
-                 
+                @guest 
+                @else
                 <button type="submit" id="btn">Submit</button>
-               
+               @endguest
             </div><br>
 
             

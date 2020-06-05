@@ -74,7 +74,8 @@ nav a {
 .links li {
     font-size: 18px;
     text-transform: uppercase;
-    padding: 7px 10px;
+    padding: 5px 10px;
+    float: left;
 }
 
 .links .login {
@@ -83,6 +84,10 @@ nav a {
     border-radius: 3px;
     margin-right: 30px;
 }
+.links .login .nav-link {
+    padding:1px 1px;
+   
+ }
 .links .logout {
     float:right;
     background: var(--bg-g);
@@ -92,6 +97,9 @@ nav a {
     background: var(--bg-g);
     border-radius: 3px;
     margin-left: 10px;
+}
+.links .registration .nav-link{
+    padding: 1px 1px;
 }
 
 .dropbtn{
@@ -110,9 +118,7 @@ ul:hover {
     
     } 
 
-.links li {
-float: left;
-}
+
 
 li a, .dropbtn {
 display: block;
@@ -160,7 +166,7 @@ text-align: left;
 
 width: fit-content;
 display: -webkit-inline-box;
-top: 35px;
+top: 40px;
 z-index: 9;
 
 }

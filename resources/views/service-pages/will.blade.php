@@ -97,7 +97,10 @@
             <div id="m2">
                 <h3>Documents Required For A Probate?</h3>
                 <ul>
-                    <li>	A copy of the will, if one was created..
+                    <li>@guest
+                        	A copy of the will, if one was created..
+                       @else
+                             A copy of the will, if one was created..
                        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -105,9 +108,24 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                       @endguest 
                     </li>
-                    <li>	The municipal death certificate of the testator..
+                    <li>@guest
+                        	The municipal death certificate of the testator..
+                       @else
+                            The municipal death certificate of the testator..
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                        @endguest
+                    </li>
+                    <li>@guest
+                            A letter stating that the testator was of sound mind when preparing the final will..
+                        @else
+                            A letter stating that the testator was of sound mind when preparing the final will..    
                        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -115,35 +133,26 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
-                    <li>
-                        	A letter stating that the testator was of sound mind when preparing the final will..
-                       
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                        
-                    </li>
-                   <li>
+                   <li>@guest
                       	Proof that the will has been executed by the testator..
-                      
+                      @else
+                        Proof that the will has been executed by the testator..
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                      @endguest   
                    </li>
                   
                 </ul>
-               
+               @guest
+               @else
                 <button type="submit" id="btn">Submit</button>
-               
+               @endguest
             </div><br>
             <br>
 

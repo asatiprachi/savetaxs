@@ -101,17 +101,22 @@
             <div id="m2">
                 <h3>Documents required for Succession Certificate</h3>
                 <ul>
-                    <li>	The death certificate of the deceased, with the time of death.
-                        
+                    <li>@guest
+                        	The death certificate of the deceased, with the time of death.
+                        @else
+                        The death certificate of the deceased, with the time of death.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                        @endguest 
                     </li>
-                    <li>	Residence or details of properties of the deceased at the time of death, within which the jurisdiction falls under.
+                    <li>@guest
+                        	Residence or details of properties of the deceased at the time of death, within which the jurisdiction falls under.
+                        @else
+                        Residence or details of properties of the deceased at the time of death, within which the jurisdiction falls under.
                        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -119,9 +124,12 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
-                    <li>	Details of family or other relatives of the deceased.
+                    <li>@guest
+                            Details of family or other relatives of the deceased.
+                        @else    
+                        	Details of family or other relatives of the deceased.
                         
                           <span>
                             <div class="upload-btn-wrapper">
@@ -129,9 +137,12 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
-                    <li>	The rights of the petitioner.
+                    <li>@guest	
+                        The rights of the petitioner.
+                       @else
+                       The rights of the petitioner.
                         
                           <span>
                             <div class="upload-btn-wrapper">
@@ -139,10 +150,12 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                       @endguest 
                     </li>
-                    <li>
-                        	Absence of any impediment to the grant of certificate.
+                    <li>@guest
+                            Absence of any impediment to the grant of certificate.
+                        @else    
+                            Absence of any impediment to the grant of certificate.
                        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -150,13 +163,14 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
                    
                 </ul>
-                
+                @guest
+                @else
                 <button type="submit" id="btn">Submit</button>
-             
+                @endguest
             </div><br>
 
             

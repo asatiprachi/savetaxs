@@ -125,7 +125,10 @@
 <div id="m4">
     <h3>Documents Required for GST Registration</h3>
 <ul class="a">
-    <li> PAN of the Applicant
+    <li>@guest
+           PAN of the Applicant
+                        @else
+                         PAN of the Applicant
         
                           <span>
                             <div class="upload-btn-wrapper">
@@ -135,7 +138,10 @@
                           </span>
                         
     </li>
-    <li> Aadhaar card
+    <li>@guest
+    Aadhaar card
+               @else 
+        Aadhaar card
        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -145,7 +151,10 @@
                           </span>
                          
     </li>
-    <li> Proof of business registration or Incorporation certificate
+    <li>@guest
+        Proof of business registration or Incorporation certificate
+                        @else 
+        Proof of business registration or Incorporation certificate
 
        
                           <span>
@@ -156,7 +165,10 @@
                           </span>
                         
     </li>
-    <li> Identity and Address proof of Promoters/Director with Photographs.
+    <li>@guest
+    Identity and Address proof of Promoters/Director with Photographs.
+                        @else
+         Identity and Address proof of Promoters/Director with Photographs.
        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -164,9 +176,12 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+               @endguest          
     </li>
-    <li> Address proof of the place of business.
+    <li>@guest
+    Address proof of the place of business.
+                        @else 
+        Address proof of the place of business.
        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -174,9 +189,12 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                 @endguest       
     </li>
-    <li> Bank Account statement/Cancelled cheque.
+               <li>@guest
+               Bank Account statement/Cancelled cheque.
+                        @else
+                        Bank Account statement/Cancelled cheque.
        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -184,9 +202,12 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                @endguest        
     </li>
-    <li> Digital Signature.
+    <li>@guest 
+        Digital Signature.
+                        @else 
+        Digital Signature.
        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -194,9 +215,12 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+             @endguest           
     </li>
-    <li> Letter of Authorization/Board Resolution for Authorized Signatory.
+    <li>@guest
+        Letter of Authorization/Board Resolution for Authorized Signatory.
+                        @else
+                         Letter of Authorization/Board Resolution for Authorized Signatory.
        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -204,13 +228,14 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                  
+          @endguest        
     </li>
 
 </ul>
-
+@guest
+@else
 <button type="submit" id="btn">Submit</button>
-
+@endguest
 
 </div><br>
 <br>

@@ -103,94 +103,109 @@
                Documents Required for Trademark Registration
              </h3>
              <ul>
-                 <li>
-                     		Proof of Applicant.
-                        
+                 <li>@guest
+                         Proof of Applicant.
+                     @else    
+                         Proof of Applicant. 
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                     @endguest     
                   </li>
-                 <li>
-                     		PAN Card and Address Proof of Applicant.
-                         
+                 <li> @guest
+                             PAN Card and Address Proof of Applicant.
+                      @else       
+                             PAN Card and Address Proof of Applicant.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                  </li>
-                  <li>
-                     		Certificate of registration (other than an Individual applicant).
-                        
+                  <li> @guest
+                             Certificate of registration (other than an Individual applicant).
+                             
+                        @else
+                             Certificate of registration (other than an Individual applicant).
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                       </li>
-                  <li>
+                  <li> @guest
+                            Brand Name & Logo.
+                      @else    
                     		Brand Name & Logo.
-                       
+                            
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                     
+                       @endguest
                  </li>
-                 <li>	
+                 <li>@guest	
                      	User Affidavit.
-                     
+                      @else
+                         User Affidavit.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest  
                  </li>
-                 <li>	Proof of TM Use.
-                         
+                 <li>@guest 
+                     	Proof of TM Use.
+                    @else
+                    Proof of TM Use.      
+                    <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                   @endguest
+                 </li>
+                 <li>@guest
+                     	MSME / Start-up Recognition.
+                 @else
+                        MSME / Start-up Recognition.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                  </li>
-                 <li>	MSME / Start-up Recognition.
-                    
+                 <li> @guest
+                           Signed Form TM – 48.
+                      @else
+                          Signed Form TM – 48.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                  </li>
-                 <li>Signed Form TM – 48.
-                     
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                        
-                 </li>
-               
+               @guest
+               @else
                   <button type="submit" id="btn">Submit</button>
-                 
+                 @endguest
                   <br>
                   <br/>
                   <br>

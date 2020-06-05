@@ -132,7 +132,10 @@
             <div id="m3">
                 <h3>Documents Required for Trade Licence</h3>
                 <ul>
-                    <li>	Lease documents/agreement in case of premises are on lease
+                    <li>@guest
+                           Lease documents/agreement in case of premises are on lease
+                        @else
+                    	   Lease documents/agreement in case of premises are on lease
                        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -140,9 +143,12 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                      
+                      @endguest
                     </li>
-                    <li>	ID Proof
+                    <li>@guest
+                             ID Proof
+                        @else
+                        	ID Proof
                        
                           <span>
                             <div class="upload-btn-wrapper">
@@ -150,62 +156,73 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                    
+                       @endguest
                     </li>
-                    <li>	Occupancy Certificate
-                      
+                    <li>@guest
+                        	Occupancy Certificate
+                        @else
+                            Occupancy Certificate
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                   
+                        @endguest
                     </li>
-                    <li>	Address Proof 
-                        
+                    <li>@guest
+                        	Address Proof 
+                        @else
+                            Address Proof  
+                        <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                         @endguest
+                    </li>
+                    <li>@guest
+                        	Cancelled Cheque 
+                       @else
+                            Cancelled Cheque 
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                        @endguest
                     </li>
-                    <li>	Cancelled Cheque 
-                       
+                     <li>@guest
+                         	Certificate of Incorporation 
+                         @else
+                            Certificate of Incorporation 
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
-                    </li>
-                     <li>	Certificate of Incorporation 
-                         
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                         
+                         @endguest
                      </li>
-                    <li>	PAN of Entity 
-                      
+                    <li>@guest
+                            PAN of Entity 
+                        @else    
+                             PAN of Entity 
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                        @endguest 
                     </li>
                 </ul>
-                 
+                @guest
+                @else 
                 <button type="submit" id="btn">Submit</button>
-               
+               @endguest
             </div><br>
             <br>
 

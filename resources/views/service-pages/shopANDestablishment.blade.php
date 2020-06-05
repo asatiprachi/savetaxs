@@ -115,7 +115,10 @@
             <div id="m2">
                 <h3>Documents required to register</h3>
                 <ol>
-                    <li>Passport size photo of the applicant.
+                    <li>@guest
+                        Passport size photo of the applicant.
+                        @else
+                        Passport size photo of the applicant.
 
                           <span>
                             <div class="upload-btn-wrapper">
@@ -123,62 +126,73 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
-                    <li>Photo of the shop along with the owner.
-                        
+                    <li>@guest
+                        Photo of the shop along with the owner.
+                        @else
+                        Photo of the shop along with the owner.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
-                    <li>	List of management employees and directors, if applicable.
-                       
+                    <li>@guest
+                        	List of management employees and directors, if applicable.
+                       @else
+                       List of management employees and directors, if applicable.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
-                    <li>Details of employees, their wage rates and the company.
-                        
+                    <li>@guest
+                        Details of employees, their wage rates and the company.
+                        @else
+                        Details of employees, their wage rates and the company.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
-                    <li>Address proof of establishment.
-                       
+                    <li>@guest
+                        Address proof of establishment.
+                       @else
+                       Address proof of establishment.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
-                    <li>	Affidavit to be shared with the applicant.
-                       
+                    <li>@guest
+                        	Affidavit to be shared with the applicant.
+                       @else
+                       Affidavit to be shared with the applicant.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
                 </ol>
-                   
+                @guest
+                @else   
                 <button type="submit" id="btn">Submit</button>
-               
+               @endguest
             </div><br><br>
 
             <div id="m3">
