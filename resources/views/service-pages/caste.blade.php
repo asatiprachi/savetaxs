@@ -119,6 +119,7 @@
                      @guest  
                      Identity Proof
 
+                
                          <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
