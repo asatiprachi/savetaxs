@@ -23,7 +23,7 @@
 
 <div class="row"  style="width:100vw">
 
-<div class="col-lg-6" style="width:100%;height:650px;margin:0px;padding:0px;outline:none;">
+<div class="col-lg-6" style="width:100%;height:700px;margin:0px;padding:0px;outline:none;">
     <div class="customer" action="/user/registration" style="width:100%;height:100%;background-color: #6610f2;">
 
         <img class="img1" src="/images/png/customer_signup.png" alt="Cust-icon image" onclick="registrationCust(this)">
@@ -49,7 +49,7 @@
 </div>
 
 
-<div  class="col-lg-6" style="height:650px;margin:0px;padding:0px;outline-style:none;">
+<div  class="col-lg-6" style="height:700px;margin:0px;padding:0px;outline-style:none;">
     <form action="{{ route('register') }}" method="POST" class="partner" style="width:100%;height:100%;background-color:#F96554;" >
         <img class="img1" src="/images/png/partner_signup.png" alt="Part-icon image" onclick="registrationPart(this)">
     </form>
