@@ -97,70 +97,84 @@
                 <h3>Documents required for gender change application</h3>
                 <p>For preparing an application for change of gender the below-mentioned documents are required:</p>
                 <ul>
-                    <li>
+                    <li>@guest
                      	Self-attested identity proof copies (Aadhar/Voter ID/Passport)
-                     
+                     @else
+                     Self-attested identity proof copies (Aadhar/Voter ID/Passport)
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
+                            @endguest
         </span>
       
                     </li>
-                    <li>
+                    <li>@guest
                         Two self-attested passport size photographs
-                        
+                        @else
+                        Two self-attested passport size photographs
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                        	An original newspaper in which gender change advertisement was given.
-                       
+                       @else
+                       An original newspaper in which gender change advertisement was given.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                      
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                         	A specimen proforma as prescribed by the department, duly signed by the applicant and two major witnesses.
-                        
+                        @else
+                        A specimen proforma as prescribed by the department, duly signed by the applicant and two major witnesses.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                   
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                        	A declaration stating that the contents in the application are true.
-                        
+                        @else
+                        A declaration stating that the contents in the application are true.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                        	A request letter together with the registration fee to the authority.
-                   
+                   @else
+                   A request letter together with the registration fee to the authority.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                     
+                     @endguest
                     </li>
                 </ul>
                

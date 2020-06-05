@@ -133,69 +133,92 @@
                 <h3>Documents required for ISO Registration Process</h3>
                 <p class="extra" >Proof that the business is registered. This can be done through: </p>
                 <ul>
-                    <li>Certificate of Incorporation
-                     
+                    <li>@guest
+                    Certificate of Incorporation
+                     @else
+                     Certificate of Incorporation
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
+
                     </li>
-                    <li>GST Certificate
-                        
+                    <li>@guest
+                    GST Certificate
+                       @else 
+                       GST Certificate
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
+ 
                         </li>
-                    <li>MSME Certificate
-                       
+                    <li>@guest
+                    MSME Certificate
+                       @else
+                       MSME Certificate
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                     
+                          @endguest
+ 
                     </li>
-                    <li>A letterhead or visiting card of the business.
-                       
+                    <li>@guest
+                    A letterhead or visiting card of the business.
+                       @else
+                       A letterhead or visiting card of the business.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
+
                     </li>
                 </ul>    
 
                 <p class="extra">	The details of an invoice that includes:</p>
                 <ul>
-                    <li>	Sale Invoice
-                        
+                    <li>@guest
+                    	Sale Invoice
+                        @else
+                        Sale Invoice
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                      
+                          @endguest
+
                     </li>
-                    <li>	Purchase Invoice
-                        
+                    <li>	@guest
+                    Purchase Invoice
+                        @else
+                        Purchase Invoice
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                     </li>
                 </ul>
                  

@@ -112,49 +112,37 @@
      <p >Documents required for filing a Patent in India</p>
 
 <ul class="a">
-    <li> Complete specification (in English)
-       
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                        
-    </li>
-    <li>Drawing(s)
-       
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                       
-    </li>
-    <li> Name, address, and nationality of inventors
-        
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                        
+    <li> @guest
+    Complete specification (in English)
+       @else
+       Complete specification (in English)
 
-    </li>
-    <li> Name, address, and nationality of applicants
-       
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                     
+                          @endguest
     </li>
-    <li>	Power of Attorney (To be filed in case the application is filed by a patent agent)
-        
+    <li>@guest
+    Drawing(s)
+    @else
+    Drawing(s)
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
+    </li>
+    <li> @guest
+    Name, address, and nationality of inventors
+    @else
+    Name, address, and nationality of inventors
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
@@ -162,80 +150,129 @@
                             </div>
                           </span>
                         
+                          @endguest
     </li>
-        <li>	Assignment Deed or Application Form endorsed by the inventor (if the inventors are not the applicants)
-           
+    <li>@guest
+     Name, address, and nationality of applicants
+     @else
+     Name, address, and nationality of applicants
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
+    </li>
+    <li>	@guest
+    Power of Attorney (To be filed in case the application is filed by a patent agent)
+    @else
+    Power of Attorney (To be filed in case the application is filed by a patent agent)
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
+    </li>
+        <li>@guest
+        	Assignment Deed or Application Form endorsed by the inventor (if the inventors are not the applicants)
+          @else
+          Assignment Deed or Application Form endorsed by the inventor (if the inventors are not the applicants)
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
         </li>
-    <li>	Details of correspond­ing applications filed in other countries (Infor­mation and undertaking under Section 8)
-      
+    <li>@guest
+    	Details of correspond­ing applications filed in other countries (Infor­mation and undertaking under Section 8)
+      @else
+      Details of correspond­ing applications filed in other countries (Infor­mation and undertaking under Section 8)
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
     </li>
-    <li>	Verified English translation of the priority application (required for convention applications).
-        
+    <li>@guest
+    	Verified English translation of the priority application (required for convention applications).
+      @else
+      Verified English translation of the priority application (required for convention applications).
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
     </li>
-    <li>	Verified English translation of the PCT application (required only for national phase applications)
+    <li>@guest
+    	Verified English translation of the PCT application (required only for national phase applications)
          Agent can verify the English translation of PCT application on behalf of the applicant.
-        
+         @else
+         Verified English translation of the PCT application (required only for national phase applications)
+         Agent can verify the English translation of PCT application on behalf of the applicant.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
          
          </li>
-    <li>	Certified copy of the priority application, if requested by the Controller (required usually for convention 
+    <li>@guest
+    	Certified copy of the priority application, if requested by the Controller (required usually for convention 
         applications, but may also be requested for national phase application in case the priority document was not 
         submitted with the International Bureau)
-       
+        @else
+        Certified copy of the priority application, if requested by the Controller (required usually for convention 
+        applications, but may also be requested for national phase application in case the priority document was not 
+        submitted with the International Bureau)
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
         </li>
-    <li>	Sequence listing in computer-readable text format (if any) (no print form is required to be submitted)
-       
+    <li>@guest
+    	Sequence listing in computer-readable text format (if any) (no print form is required to be submitted)
+      @else
+      Sequence listing in computer-readable text format (if any) (no print form is required to be submitted)
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
     </li>
-    <li>	Permission from National Biodiversity Authority (in case any Biological material used in the invention is from India).
-       
+    <li>@guest
+    	Permission from National Biodiversity Authority (in case any Biological material used in the invention is from India).
+      @else
+      Permission from National Biodiversity Authority (in case any Biological material used in the invention is from India).
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest  
     </li>
 
 </ul>

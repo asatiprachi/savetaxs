@@ -104,75 +104,95 @@
             <div id="m2">
                 <h3>Documents for Property Registration</h3>
                 <ul>
-                    <li>	Duty stamped signed and executed document.
-                      
+                    <li>@guest
+                    	Duty stamped signed and executed document.
+                      @else
+                      Duty stamped signed and executed document.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>	The claimant of the sale document must also sign the sale deed and appear before the registering officer for registration of the sale deed.
-                      
+                    <li>@guest
+                    	The claimant of the sale document must also sign the sale deed and appear before the registering officer for registration of the sale deed.
+                      @else
+                      The claimant of the sale document must also sign the sale deed and appear before the registering officer for registration of the sale deed.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>	Patta transfer application with court fee.
-                       
+                    <li>@guest
+                    	Patta transfer application with court fee.
+                      @else
+                      Patta transfer application with court fee.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>	PAN Card/Number
-                       
+                    <li>@guest
+                    	PAN Card/Number
+                      @else
+                      PAN Card/Number
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                      	Patta pass book
-                     
+                       @else
+                       Patta pass book
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                     </li>
-                   <li>	ID card for executants and claimant (for all deeds)
-                      
+                   <li>	@guest
+                   ID card for executants and claimant (for all deeds)
+                   @else
+                   ID card for executants and claimant (for all deeds)
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                    </li>
-                   <li>	ID card for witnesses
-                      
+                   <li>@guest
+                   	ID card for witnesses
+                     @else
+                     ID card for witnesses
+
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                    </li>
                 </ul>
                   

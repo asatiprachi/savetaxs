@@ -142,46 +142,57 @@
             <div id="m3">
                 <h3>Basics required for Copyright registration</h3>
                 <ul>
-                    <li>	Basic details of the candidate.
-                        
+                    <li>@guest
+                    	Basic details of the candidate.
+                        @else
+                        Basic details of the candidate.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>	Soft copies of his work and optional files in JPEG, JPG or GIF format. For computer programs, 4 copies of CDs and DVDs are required
-                        
+                    <li>@guest
+                    	Soft copies of his work and optional files in JPEG, JPG or GIF format. For computer programs, 4 copies of CDs and DVDs are required
+                        @else
+                        Soft copies of his work and optional files in JPEG, JPG or GIF format. For computer programs, 4 copies of CDs and DVDs are required
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>	Trademark certificate for artistic work.
-                        
+                    <li>	@guest
+                    Trademark certificate for artistic work.
+                    @else
+                    Trademark certificate for artistic work.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                         Power of attorney
-                        
+                        @else
+                        Power of attorney
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                     </li>
                 </ul>
                 

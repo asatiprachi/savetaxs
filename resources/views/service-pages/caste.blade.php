@@ -114,35 +114,44 @@
             <div id="m3">
                 <h3>Documents Required for Caste Certificate</h3>
                 <ul>
-                    <li> Identity Proof
-                        
+                    <li>@guest
+                     Identity Proof
+                     @guest  
+                     Identity Proof
+
                          <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                          </span>
-                       
+                       @endguest
                     </li>
-                    <li>	Birth Certificate
-                        
+                    <li>@guest
+                    	Birth Certificate
+                        @else
+                        Birth Certificate
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                         </li>
-                    <li>  Declartion
-                        
+                    <li>@guest
+                      Declartion
+                      @else 
+                      Declartion
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                     </li>
                    
                    

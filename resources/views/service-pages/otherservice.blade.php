@@ -102,65 +102,83 @@
     <p>Documents Required for Registration (all documents must be scanned and attested)
         </p>
     <ul class="a">
-        <li> Certificate of Incorporation issued by the registrar of Company
-            
+        <li> @guest
+        Certificate of Incorporation issued by the registrar of Company
+            @else
+            Certificate of Incorporation issued by the registrar of Company
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
         </li>
-        <li> MOA and AOA
-           
+        <li>@guest
+         MOA and AOA
+         @else
+         MOA and AOA
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest 
         </li>
-        <li> Board Resolution or POA authorizing the Authorized Signatory
-                      
+        <li>@guest
+         Board Resolution or POA authorizing the Authorized Signatory
+         @else     
+         Board Resolution or POA authorizing the Authorized Signatory
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
         </li>
-        <li>A note on the nature of Business
-           
+        <li>@guest
+        A note on the nature of Business
+        @else
+        A note on the nature of Business
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
         </li>
-        <li> List of the Directors of the Company
-            
+        <li>@guest
+         List of the Directors of the Company
+         @else
+         List of the Directors of the Company
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
         </li>
-        <li>	List of the Shareholders of the Company
-           
+        <li>@guest
+        	List of the Shareholders of the Company
+            @else
+            List of the Shareholders of the Company
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                  
+                          @endguest
         </li>
     </ul>
   

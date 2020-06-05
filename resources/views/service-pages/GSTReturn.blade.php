@@ -194,69 +194,83 @@
               Documents Required for GST Return
              </h3>
              <ol>
-                 <li>
+                 <li>@guest
                      		PAN card of the individual or company
-                        
+                        @else
+                        PAN card of the individual or company
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                  </li>
-                 <li>
+                 <li>@guest
                      	Copy of the entity’s government ID (Driving license/Aadhar/Voter ID)
-                         
+                       @else  
+                       Copy of the entity’s government ID (Driving license/Aadhar/Voter ID)
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                  </li>
-                  <li>
+                  <li>@guest
                      	Incorporation certificate/Partnership deed
-                        
+                        @else
+                        Incorporation certificate/Partnership deed
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                       </li>
-                  <li>
+                  <li>@guest
                     	Personal or company’s current bank account statement
-                       
+                       @else
+                       Personal or company’s current bank account statement
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                  </li>
-                 <li>	Address proof (Electricity bill/rent agreement/sale deed of the office location
-                     
+                 <li>@guest
+                 	Address proof (Electricity bill/rent agreement/sale deed of the office location
+                     @else
+                     Address proof (Electricity bill/rent agreement/sale deed of the office location
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                  </li>
-                 <li>Copy of cancelled cheque leaf of the current account
-                     
+                 <li>@guest
+                 Copy of cancelled cheque leaf of the current account
+                     @else
+                 Copy of cancelled cheque leaf of the current account
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                       @endguest
                  </li>
                  
              </ol>

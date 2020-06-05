@@ -110,56 +110,70 @@
             <div id="m2">
                 <h3>Documents Needed</h3>
                 <ul>
-                    <li>	Address proof of husband
-                        
+                    <li>@guest
+                    	Address proof of husband
+                        @else 
+                        Address proof of husband
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                       @endguest
                     </li>
-                    <li>	Address proof of wife
-                       
+                    <li>@guest
+                    	Address proof of wife
+                        @else 
+                        Address proof of wife
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                     </li>
-                    <li>	Marriage certificate
-                        
+                    <li>@guest
+                    	Marriage certificate
+                        @else 
+                        Marriage certificate
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>	Photographs of the marriage of husband and wife
-                        
+                    <li>	@guest
+                    Photographs of the marriage of husband and wife
+                    @else 
+                    Photographs of the marriage of husband and wife
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                         Evidence proving spouses are living separately for more than a year
-                        
+                        @else 
+                        Evidence proving spouses are living separately for more than a year
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
                    
                 </ul>

@@ -140,45 +140,59 @@
 <p >Mentioned below are the documents needed and accepted by MCA for online registration – </p>
 
 <ol class="a">
-    <li>Scanned copy of PAN Card or Passport (Foreign Nationals & NRIs)
-       
+    <li>@guest
+        Scanned copy of PAN Card or Passport (Foreign Nationals & NRIs)
+        @else    
+        Scanned copy of PAN Card or Passport (Foreign Nationals & NRIs)
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
+                          @endguest     
+
                         
     </li>
-    <li>Scanned copy of Voter’s ID/Passport/Driver’s License
-       
+    <li>@guest
+        Scanned copy of Voter’s ID/Passport/Driver’s License
+        @else
+        Scanned copy of Voter’s ID/Passport/Driver’s License
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest             
     </li>
-    <li>Scanned copy of the latest bank statement/telephone or mobile bill/electricity or gas bill
-       
+    <li>@guest
+        Scanned copy of the latest bank statement/telephone or mobile bill/electricity or gas bill
+        @else
+        Scanned copy of the latest bank statement/telephone or mobile bill/electricity or gas bill
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest             
     </li>
-    <li>Scanned passport-sized photograph specimen signature (blank document with signature [directors only])
-       
+    <li>@guest
+    Scanned passport-sized photograph specimen signature (blank document with signature [directors only])
+    @else
+    Scanned passport-sized photograph specimen signature (blank document with signature [directors only])
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest           
     </li>
 </ol>
 

@@ -119,8 +119,11 @@
             <div id="m3">
                 <h3>Documents required for Trust Registration</h3>
                 <ul>
-                    <li>Address proof – Electricity/Gas bill
-                       
+                    <li>@guest
+                    Address proof – Electricity/Gas bill
+                       @else
+                       Address proof – Electricity/Gas bill
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
@@ -129,7 +132,10 @@
                           </span>
                    
                     </li>
-                    <li>	ID proof (at least two members of the company) – Voter ID/Driving License/ Passport/Aadhar Card
+                    <li>@guest
+                    	ID proof (at least two members of the company) – Voter ID/Driving License/ Passport/Aadhar Card
+@else
+                    	ID proof (at least two members of the company) – Voter ID/Driving License/ Passport/Aadhar Card
 
                           <span>
                             <div class="upload-btn-wrapper">
@@ -147,7 +153,10 @@
             <div id="m4">
                 <h3>Documents Required for Society registration and Section 8 company</h3>
                 <ul>
-                    <li>	The name of the society
+                    <li>@guest
+                    	The name of the society
+@else
+The name of the society
 
                           <span>
                             <div class="upload-btn-wrapper">
@@ -155,37 +164,46 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                          
+                          @endguest
                     </li>
-                    <li>Address proof of the office
-                         
+                    <li>@guest
+                    Address proof of the office
+                    @else
+                    Address proof of the office
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                     </li>
-                    <li>	ID Proof - Voter ID/Driving License/ Passport/Aadhar Card
-                        
+                    <li>@guest
+                    	ID Proof - Voter ID/Driving License/ Passport/Aadhar Card
+                        @else
+                        ID Proof - Voter ID/Driving License/ Passport/Aadhar Card
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                     </li>
-                    <li>Two copies of MoA and By-laws of the society
-                        
+                    <li>@guest
+                    Two copies of MoA and By-laws of the society
+                    @else
+                    Two copies of MoA and By-laws of the society
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                     </li>
                 <p>It takes about 8 to 10 days for drafting the MoA and By-laws of the Society. Thereafter it takes 21 to 30 days for the Society to be registered.</p>   
                 </ul>

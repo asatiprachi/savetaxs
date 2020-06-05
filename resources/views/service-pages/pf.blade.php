@@ -125,65 +125,83 @@
      <h3>Documents Required for EPF Registration</h3>
 <p class="extra">1. Proprietorship Firm</p>
 <ul class="a">
-<li> Name
-   
+<li>@guest
+ Name
+ @else
+ Name
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
 </li>
-<li> PAN Card
-   
+<li>@guest
+ PAN Card
+ @else
+ PAN Card
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
 </li>
-<li> ID Proof – Driving License / Passport / Voter Card
-   
+<li>@guest
+ ID Proof – Driving License / Passport / Voter Card
+ @else
+ ID Proof – Driving License / Passport / Voter Card
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
 </li>
-<li> Address Proof for the premises
-  
+<li>@guest
+ Address Proof for the premises
+ @else
+ Address Proof for the premises
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
 </li>
-<li> Residential address proof
-    
+<li> @guest
+Residential address proof
+@else
+Residential address proof
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
 </li>
-<li> Telephone number
-   
+<li> @guest
+Telephone number
+@else
+Telephone number
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
 </li>
 
 
@@ -194,55 +212,70 @@
 
          <p class="extra">2. Society/Trust</p>
                <ul class="a">
-                   <li>	Certification of Incorporation
-                       
+                   <li>@guest
+                   	Certification of Incorporation
+                     @else
+                     Certification of Incorporation
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                    </li>
-                   <li>	MOA and By-laws
-                      
+                   <li>	@guest
+                   MOA and By-laws
+                   @else
+                   MOA and By-laws
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                    </li>
-                   <li>	Pan Card number
-                       
+                   <li>	@guest
+                   Pan Card number
+                   @else
+                   Pan Card number
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                    </li>
-                  <li>	Address proof
-                     
+                  <li>	@guest
+                  Address proof
+                  @else
+                  Address proof
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest 
                   </li>
-                   <li>	ID proof
-                       
+                   <li>@guest
+                   	ID proof
+                     @else
+                     ID proof
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                    </li>
 
 
@@ -252,47 +285,10 @@
 
                <p class="extra">3. Partnership Firms</p>
                  <ul class="a">
-                 <li> Certificate of Registration Firms
-                     
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                         
-                 </li>
-                  <li>Partnership Deed
-                     
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                         
-                  </li>
-                 <li> ID Proof – Driving License / Passport / Voter Card
-                    
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                        
-                 </li>
-                 <li> List of all partners with address proof
-                   
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                        
-                 </li>
-                 <li> ID proof of all partners
+                 <li>@guest
+                  Certificate of Registration Firms
+                  @else
+                  Certificate of Registration Firms
 
                           <span>
                             <div class="upload-btn-wrapper">
@@ -300,62 +296,129 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
+                 </li>
+                  <li>@guest
+                  Partnership Deed
+                  @else
+                  Partnership Deed
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
+                  </li>
+                 <li> @guest
+                 ID Proof – Driving License / Passport / Voter Card
+                 @else
+                 ID Proof – Driving License / Passport / Voter Card
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
+                 </li>
+                 <li>@guest
+                  List of all partners with address proof
+                  @else
+                  List of all partners with address proof
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
+                 </li>
+                 <li> @guest
+                 ID proof of all partners
+                 @else
+                 ID proof of all partners
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
                  </li>
 
                </ul>
 
                 <p class="extra"> 4. LLP/Company</p>
                      <ul class="a">
-                         <li> Incorporation Certificate
-                         
+                         <li> @guest
+                         Incorporation Certificate
+                         @else
+                         Incorporation Certificate
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                          </li>
-                         <li>	proof of directors
-                             
+                         <li>@guest
+                         	proof of directors
+                           @else
+                           proof of directors
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                          </li>
-                        <li>	DSC of directors
-                           
+                        <li>@guest
+                        	DSC of directors
+                          @else
+                          DSC of directors
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                         </li>
-                         <li>	List of all directors with address proof
-                           
+                         <li>@guest
+                         	List of all directors with address proof
+                           @else
+                           List of all directors with address proof
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                               </li>
-                         <li>	ID proof
-                           
+                         <li>	@guest
+                         ID proof
+                         @else
+                         ID proof
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                          </li>
 
 
@@ -372,55 +435,70 @@
                       <li>	Grade</li>
                         <li>	Salary</li>
                        <li>	Designation</li>
-                       <li> ID Proof – Driving License / Passport / Voter Card
-                          
+                       <li> @guest
+                       ID Proof – Driving License / Passport / Voter Card
+                       @else
+                       ID Proof – Driving License / Passport / Voter Card
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                        </li>
-                        <li> Bank account number with IFSC code
-                           
+                        <li>@guest
+                         Bank account number with IFSC code
+                         @else
+                         Bank account number with IFSC code
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                         </li>
-                          <li> Voluntary application
-                           
+                          <li> @guest
+                          Voluntary application
+                          @else
+                          Voluntary application
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                           </li>
-                        <li> Employee details
-                           
+                        <li>@guest
+                         Employee details
+                         @else
+                         Employee details
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                         </li>
-                       <li> Signature
-                          
+                       <li> @guest
+                       Signature
+                       @else
+                       Signature
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                        </li>
                        <li> Date of agreement</li>
 
@@ -428,86 +506,110 @@
 
                 <p class="extra">6. Other Entities</p>
                     <ul class="a">
-                        <li> First sale bill.
-                           
+                        <li> @guest
+                        First sale bill.
+                        @else
+                        First sale bill.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                         </li>
-                         <li> First purchase bill of raw material and machinery.
-                           
+                         <li> @guest
+                         First purchase bill of raw material and machinery.
+                         @else
+                         First purchase bill of raw material and machinery.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                          </li>
-                        <li> GST Registration Certificate, if registered
-                          
+                        <li>@guest
+                         GST Registration Certificate, if registered
+                         @else
+                         GST Registration Certificate, if registered
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                         </li>
-                        <li> Bankers details- name, address, branch, IFSC code
-                          
+                        <li> @guest
+                        Bankers details- name, address, branch, IFSC code
+                        @else
+                        Bankers details- name, address, branch, IFSC code
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                         </li>
-                        <li> Record of a monthly strength of the number of employees.
-                          
+                        <li>@guest
+                         Record of a monthly strength of the number of employees.
+                         @else
+                         Record of a monthly strength of the number of employees.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                         </li>
-                        <li> Register of salary and wages, all vouchers, 
+                        <li>@guest
+                         Register of salary and wages, all vouchers, 
                             all balance sheets from day one to current date of provisional coverage.
-                           
+                            @else
+                            Register of salary and wages, all vouchers, 
+                            all balance sheets from day one to current date of provisional coverage.
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                             </li>
-                        <li> Salary and PF Statement.
-                           
+                        <li>@guest
+                         Salary and PF Statement.
+                         @else
+                         Salary and PF Statement.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                         </li>
-                        <li>Cross cancelled cheque.
-                           
+                        <li>@guest
+                        Cross cancelled cheque.
+                           @else
+                           Cross cancelled cheque.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                        @endguest
                         </li>
 
 

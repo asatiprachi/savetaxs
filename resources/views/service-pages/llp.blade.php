@@ -147,48 +147,58 @@
 <div style="margin-left:14px;margin-bottom:5px;">The list of documents required to register a Limited Liability Partnership are as under – </div>
 <div style="margin-left:14px;">For Partners (All the documents must be self-attested, scanned and uploaded)</div></br>
 <ul class="a">
-    <li>PAN Card or passport (Foreign Nationals & NRIs)
+    <li>@guest
+    PAN Card or passport (Foreign Nationals & NRIs)
+        @else
+        PAN Card or passport (Foreign Nationals & NRIs)
+       
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                      @endguest
+                    </li>
+    
+    <li>@guest
+     Apply for the DIN (Director Identification Number)
+          @else    
+          Apply for the DIN (Director Identification Number)
+      
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                        @endguest
                     
+    </li>
+    <li>@guest
+     Application for the name availability.
+         @else  
+         Application for the name availability.
+          
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                      
+                        @endguest
                     </li>
     </li>
-    <li> Apply for the DIN (Director Identification Number)
-                    
+    <li>@guest
+     Filing of the EMoa and EAOA to register private limited company
+          @else            
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
-                    </li>
-    </li>
-    <li> Application for the name availability.
-                     
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                        
-                    </li>
-    </li>
-    <li> Filing of the EMoa and EAOA to register private limited company
-                      
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                        
+                        @endguest
                     </li>
     </li>
 </ul>
@@ -198,48 +208,60 @@
 <div id="m4">
 <h3>For Registered Office (All documents must be scanned and uploaded)	</h3>
 <ul class="a">
-    <li> Bank Statement/ Telephone Bill/ Electricity or Gas Bill
-                      
+    <li> @guest
+    Bank Statement/ Telephone Bill/ Electricity or Gas Bill
+                  @else  
+                  Bank Statement/ Telephone Bill/ Electricity or Gas Bill
+  
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                     </li>
     </li>
-    <li> Notarised Rental Agreement in English
-       
+    <li>@guest
+     Notarised Rental Agreement in English
+       @else
+       Notarised Rental Agreement in English
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                     </li>
     </li>
-    <li>No-Objection Certificate from the property owner
-                     
+    <li>@guest
+    No-Objection Certificate from the property owner
+                     @else
+                     No-Objection Certificate from the property owner
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                     </li>
     </li>
-    <li>Sale Deed/ Property Deed in English
-                     
+    <li>@guest
+    Sale Deed/ Property Deed in English
+                @else  
+                Sale Deed/ Property Deed in English
+   
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                    
+                          @endguest
                     </li>
     </li>
 </ul>
