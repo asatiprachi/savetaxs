@@ -115,6 +115,7 @@
                 <h3>Documents Required for Caste Certificate</h3>
                 <ul>
                     <li> Identity Proof
+                    Identity Proof
                         
                          <span>
                             <div class="upload-btn-wrapper">
