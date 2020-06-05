@@ -1419,3 +1419,105 @@ footer{
     }
 }
 
+/* registration */
+
+.img1 {
+    position: absolute;
+    top: calc( 50vh - 100px);
+    left: calc( 23vw - 100px);
+    width: 200px;
+    height: 200px;
+}
+.regInput{
+    width:50%;
+    height:40px;
+    border:solid grey;
+    margin-bottom:25px;
+    padding-left:10px;
+}
+.btn-registration {
+    color: white;
+    background-color: #28E096;
+    text-align: center;
+    border: none;
+    width: 150px;
+    height: 40px;
+}
+
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-right: 0px;
+}
+
+.registrationcust {
+    margin-left: 100px;
+    display: none;
+}
+
+.registrationpart {
+    margin-left: 100px;
+    display: none;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+.navbar-brand {
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* login */
+.img1 {
+    position: absolute;
+    top: calc( 40vh - 100px);
+    left: calc( 23vw - 100px);
+    width: 200px;
+    height: 200px;
+}
+
+.btn-login {
+    color: white;
+    background-color: #28E096;
+    text-align: center;
+    border: none;
+    width: 150px;
+    height: 40px;
+}
+
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-right: 0px;
+}
+
+.logincust {
+    margin-left: 100px;
+    display: none;
+}
+
+.loginpart {
+    margin-left: 100px;
+    display: none;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+.navbar-brand {
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
