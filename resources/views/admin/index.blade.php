@@ -16,150 +16,22 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
-    
-    <link href="{{ asset('css/adminlte.min..css') }}" rel="stylesheet">
+
+    <link href="{{ asset('css/adminlte.min.css') }}" rel="stylesheet">
 
 
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
-
-    @extends('layouts.default')
-@section('content')
-
-<style>
-    .content-wrapper{
-  margin-left: 20px;
-
-}
-.wrapper{
-    margin-top: 70px;
-    min-height: 10px;
-    margin-left: 20px;
-
-}
-
-.content-header{
-    margin: 10px;
-}
-
-.nested{
-    border: solid 1px whitesmoke;
-      background-color:whitesmoke;
-      box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-      -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      border-radius: 5px;
-
-    
-}
-
-.grid-container {
-  display: grid;
-  width:280px;
-  height:350px;
-      border: solid 1px whitesmoke;
-      background-color:whitesmoke;
-      box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-      -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      list-style-type: none;
-border-radius: 5px;
-margin-left: 50px;
-margin-top: 10px;
-}
-
-.itm{
-    color: black;
-    font-weight: lighter;
-    margin-top: 20px;
-}
-
-.a{
-    list-style: none;
-    color: black;
-}
-.manue-box{
-        display: inline-block;
-    margin-left: 50px;
+    <link href="{{ asset('js/adminlte.js') }}" rel="stylesheet">
+    <link href="{{ asset('js/dashboard2.js') }}" rel="stylesheet">
 
 
-}
 
-.grid-containers {
-  display: grid;
-  width:280px;
-  height:350px;
-      border: solid 1px whitesmoke;
-      background-color:whitesmoke;
-      box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-      -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      list-style-type: none;
-border-radius: 5px;
-margin-left: 50px;
-margin-top: 10px;
-}
-
-.itms{
-    text-align: center;
-    color: black;
-    font-weight: lighter;
-    margin-top: 20px;
-}
-
-.ab{
-    list-style: none;
-    color: black;
-}
-.manue-boxs{
-    display: inline-block;
-    margin-left: 50px;
+           
 
 
-}
-.ims{
-    width: 50%;
-    height: 80px;
-    float: left;
-
-}
-
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
-.btn-container{
-  height:44px;
-  width:166.23px;
-  float: right;
-}
-a:active{
-  color:#ffd323;
-}
-button{
-  user-select:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  cursor:pointer;
-  border-radius: 45%;
-  padding:6px;
-  font-size:15px;
-  background-color: green;
-  color:white;
-  font-family:cursive;
-  box-sizing:border-box;
-
-  
-}
-
-</style>
-                
-
-
-<div class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+<div class="hold-transition sidebar-mini layout-fixed ">
 <div class="wrapper">
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -1050,7 +922,6 @@ button{
         <!-- overlayScrollbars -->
         <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
         <!-- AdminLTE App -->
-        <script src="dist/js/adminlte.js"></script>
                 <!-- help sction script-->
 
 
