@@ -22,7 +22,10 @@
 
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 
+    @extends('layouts.default')
+@section('content')
 
 <style>
     .content-wrapper{
@@ -152,78 +155,8 @@ button{
   
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-input:hover,
-input:focus{
-    outline-style: none;
-    border-bottom-color: rgb(43, 43, 109);
-}
-
-.has-treeview .nav-link1{
-    text-align: center;
-    padding: 10px 10px;
-   
-}
-.nav-tabs>li>a:hover {
-/* margin-right: 2px; */
-  
-  border: 1px solid transparent;
-/* border-radius: 4px 4px 0 0; */
-}
-.tabs-left>li.active>a,
-.tabs-left>li.active>a:hover,
-.tabs-left>li.active>a:focus {
-border-bottom-color: #ddd;
-border-right-color: transparent;
-
-border:none;
-border-radius:0px;
-margin:0px;
-display: block;
-}
-.wrap{
-    display: grid;       
-    grid-template-columns: repeat(1, auto-fill);
-    grid-template-rows: repeat(2, 300px);
-     grid-gap:10px;
-    
-}
-.nested{
-    display: grid;
-    grid-template-columns: repeat(5, minmax(100px,200px));
-    grid-gap: 5px;
-    background: honeydew;
-    padding: 20px;
-}
-.nested #Imgprofile{
-   width: 200px;
-   height: 200px;
-   padding: 10px;
-}
-.nested li{
-    list-style: none;
-    line-height: 2.0;
-}
-.nested li .Gender{
-    margin-top: 20px;
-    width: 20px;
-}
-.nested li input{
-    width: 180px;
-    border-style: none;
-    border-bottom: 1px solid;
-    background: honeydew;
-    }
-
 </style>
+                
 
 
 <div class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">

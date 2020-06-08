@@ -20,20 +20,20 @@
             <div class="card0">
                 <h2 style="color:darkblue;"><b>Order Select</b></h2>
 
-                <form method="POST" action="orderhistory">
+                <form method="POST" action="{{URL('orderhistory')}}">
                 @csrf
                 <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="email" name="email" class="form-control" placeholder="Email">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Phone Number">
+                    <input type="text" name="phonenumber"class="form-control" placeholder="Phone Number">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="City">
+                    <input type="text" name="city" class="form-control" placeholder="City">
                 </div>
               <div class="form-group">
                     
-                    <select class="form-control">
+                    <select class="form-control" name="state">
                         <option selected>Select state</option>
                         <option>Andhra Pradesh</option>
                         <option>Arunachal Pradesh </option>
@@ -68,7 +68,7 @@
                     </select>
                 </div>
                  <div class="form-group">
-                    <select class="form-control">
+                    <select class="form-control" name="language">
                         <option selected>Language</option>
                         <option>English</option>
                         <option>Hindi</option>
