@@ -12,9 +12,19 @@ class OrderController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    protected $redirectTo ="/";
+
+    public function index(Request $request)
     {
-        //
+        $order = new Order;
+
+        $order->email = $request->input('email');
+        $order->phonenumber = $request->input('phonenumber');
+        $order->city = $request->input('city');
+        $order->state = $request->input('state');
+        $order->language = $request->input('language');
+
+        $order->save();
     }
 
     /**
@@ -24,7 +34,7 @@ class OrderController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -35,7 +45,7 @@ class OrderController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**
