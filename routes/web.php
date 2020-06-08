@@ -21,6 +21,11 @@ Route::get('/orderhistory','OrderController@create');
 Route::post('/orderhistory','OrderController@store');
 
 
+
+Route::get('/index', function(){ 
+    return view('admin.index');
+});
+
 Route::get('/register', function(){ 
     return view('register');
 });
