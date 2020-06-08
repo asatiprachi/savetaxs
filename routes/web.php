@@ -16,7 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 }) ->name('welcome');
-Route::post('/order','OrderController@insert');
+
+Route::get('/orderhistory','OrderController@create');
+Route::post('/orderhistory','OrderController@store');
+
 
 Route::get('/register', function(){ 
     return view('register');

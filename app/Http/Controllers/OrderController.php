@@ -12,19 +12,11 @@ class OrderController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    protected $redirectTo ="/";
+   
 
-    public function index(Request $request)
+    public function index()
     {
-        $order = new Order;
-
-        $order->email = $request->input('email');
-        $order->phonenumber = $request->input('phonenumber');
-        $order->city = $request->input('city');
-        $order->state = $request->input('state');
-        $order->language = $request->input('language');
-
-        $order->save();
+        //
     }
 
     /**
@@ -32,9 +24,15 @@ class OrderController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        
+        return Order::create([
+            'email' => $data['email'],
+            'phonenumber' =>$data['phonenumber'],
+            'city' => $data['city'],
+            'state' => $data['state'],
+            'language' =>$data['language'],
+        ]);
     }
 
     /**
@@ -45,7 +43,15 @@ class OrderController extends Controller
      */
     public function store(Request $request)
     {
-        
+        $order = new Order;
+
+        $order->email = $request->input('email');
+        $order->phonenumber = $request->input('phonenumber');
+        $order->city = $request->input('city');
+        $order->state = $request->input('state');
+        $order->language = $request->input('language');
+
+        $order->save();
     }
 
     /**

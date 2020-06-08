@@ -13,11 +13,5 @@ class Order extends Model
         'email', 'phonenumber','city','state','language',
     ];
 
-    protected $hidden = [
-         'remember_token',
-    ];
-
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
+  
 }

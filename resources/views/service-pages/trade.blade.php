@@ -20,7 +20,8 @@
             <div class="card0">
                 <h2 style="color:darkblue;"><b>Order Select</b></h2>
 
-                <form method="POST" action="{{ asset('trade') }}">
+                <form method="POST" action="orderhistory">
+                @csrf
                 <div class="form-group">
                     <input type="email" class="form-control" placeholder="Email">
                 </div>
