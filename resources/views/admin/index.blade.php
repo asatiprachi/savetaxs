@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-    <!-- Theme style -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+
+    
+    <link href="{{ asset('css/adminlte.min..css') }}" rel="stylesheet">
+
 
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
@@ -149,20 +151,207 @@ button{
 
   
 }
-@extends('layouts.default')
-@section('content')
 
-                
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+input:hover,
+input:focus{
+    outline-style: none;
+    border-bottom-color: rgb(43, 43, 109);
+}
+
+.has-treeview .nav-link1{
+    text-align: center;
+    padding: 10px 10px;
+   
+}
+.nav-tabs>li>a:hover {
+/* margin-right: 2px; */
+  
+  border: 1px solid transparent;
+/* border-radius: 4px 4px 0 0; */
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+border-bottom-color: #ddd;
+border-right-color: transparent;
+
+border:none;
+border-radius:0px;
+margin:0px;
+display: block;
+}
+.wrap{
+    display: grid;       
+    grid-template-columns: repeat(1, auto-fill);
+    grid-template-rows: repeat(2, 300px);
+     grid-gap:10px;
+    
+}
+.nested{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(100px,200px));
+    grid-gap: 5px;
+    background: honeydew;
+    padding: 20px;
+}
+.nested #Imgprofile{
+   width: 200px;
+   height: 200px;
+   padding: 10px;
+}
+.nested li{
+    list-style: none;
+    line-height: 2.0;
+}
+.nested li .Gender{
+    margin-top: 20px;
+    width: 20px;
+}
+.nested li input{
+    width: 180px;
+    border-style: none;
+    border-bottom: 1px solid;
+    background: honeydew;
+    }
+
+</style>
 
 
 <div class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="index2.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <!-- SEARCH FORM -->
+            <form class="form-inline ml-3">
+                <div class="input-group input-group-sm">
+                    <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-navbar" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Messages Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-comments"></i>
+                        <span class="badge badge-danger navbar-badge">3</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        Brad Diesel
+                                        <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">Call me whenever you can...</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        John Pierce
+                                        <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">I got your message bro</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        Nora Silvester
+                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">The subject goes here</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                    </div>
+                </li>
+                <!-- Notifications Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-bell"></i>
+                        <span class="badge badge-warning navbar-badge">15</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <span class="dropdown-item dropdown-header">15 Notifications</span>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-envelope mr-2"></i> 4 new messages
+                            <span class="float-right text-muted text-sm">3 mins</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-users mr-2"></i> 8 friend requests
+                            <span class="float-right text-muted text-sm">12 hours</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-file mr-2"></i> 3 new reports
+                            <span class="float-right text-muted text-sm">2 days</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+
+                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- /.navbar -->
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="/dashboard/admin/index2.html" class="brand-link">
                 <i class="fa fa-user-circle" aria-hidden="true"></i>
-                <span class="brand-text font-weight-light">{{ __('Register') }}</span>
+                <span class="brand-text font-weight-light">Dashboard</span>
             </a>
 
             <!-- Sidebar -->
@@ -283,21 +472,7 @@ button{
             <!--/.sidebar-menu -->
             <!-- /.sidebar -->
         </aside>
-
-                <!--/dashboard-->
-              
-              
-              <!--sample code-->
-              <button id="auth-button" hidden>Authorize</button>
-              
-              <h1>Hello Analytics</h1>
-              
-              <textarea cols="60" rows="10" id="query-output"></textarea>
-              
-             
-          
-        </section>
-
+    
         
   
 
@@ -402,9 +577,6 @@ button{
 
          
          
-          
-                
-        
             </section>
 
             
@@ -869,13 +1041,31 @@ button{
 
 			</div>
 		</div>
-	</div>
-	</div>
-
-	@endsection
+    </div>
+    </div>
 
 
+	
             </section>
+
+                 
+          
+           <script>
+               function displayMenu(av){
+                  if(document.getElementById('flex').style.display==="none"){
+                  document.getElementById('flex').style.display="block";
+                  }
+                  else{
+                    document.getElementById('flex').style.display="none";
+                  }
+               }
+           </script>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+                
+        
+     
             <!-- helpdesk section  script -->
 
             <script src="dist/js/awesomplete.js"></script>
@@ -930,13 +1120,10 @@ button{
         <script src="dist/js/adminlte.js"></script>
                 <!-- help sction script-->
 
-        <script src="dist/js/help.js"></script>
 
 
         <!-- OPTIONAL SCRIPTS -->
         <!-- Video-Confrencing-Page SCRIPTS -->
-        <script src="dist/js/scripts/AgoraRTCSDK-2.4.0.js"></script>
-        <script src="dist/js/scripts/script.js"></script>
         <!-- PAGE PLUGINS -->
         <!-- jQuery Mapael -->
         <script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
@@ -1025,19 +1212,5 @@ button{
        
     
 
-        <script>
-               function displayMenu(av){
-                  if(document.getElementById('flex').style.display==="none"){
-                  document.getElementById('flex').style.display="block";
-                  }
-                  else{
-                    document.getElementById('flex').style.display="none";
-                  }
-               }
-           </script>
-           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-          
                 
         
