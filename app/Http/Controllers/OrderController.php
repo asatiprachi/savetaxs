@@ -24,15 +24,8 @@ class OrderController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(Request $request)
+    public function create()
     {
-        return Order::create([
-            'email' => $data['email'],
-            'phonenumber' =>$data['phonenumber'],
-            'city' => $data['city'],
-            'state' => $data['state'],
-            'language' =>$data['language'],
-        ]);
     }
 
     /**

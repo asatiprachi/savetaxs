@@ -14,8 +14,13 @@ class CreateOrdersTable extends Migration
     public function up()
     {
         Schema::create('orders', function (Blueprint $table) {
-            $table->id();
+            
             $table->timestamps();
+            $table->string('email');
+            $table->string('phonenumber');
+            $table->string('city');
+            $table->string('state');
+            $table->string('language');
         });
     }
 
