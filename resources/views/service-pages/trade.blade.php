@@ -19,6 +19,8 @@
         <div class="col-lg-6" id="top2">
             <div class="card0">
                 <h2 style="color:darkblue;"><b>Order Select</b></h2>
+
+                <form method="POST" action="{{ asset('trade') }}">
                 <div class="form-group">
                     <input type="email" class="form-control" placeholder="Email">
                 </div>
@@ -72,8 +74,11 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <input type="button" class="btn1" value="Add To Cart">
+                <button type="submit" class="btn-registration">
+                                    {{ __('Add To Cart') }}
+                                </button>
                 </div>
+                </form>
             </div>   
         </div>
         

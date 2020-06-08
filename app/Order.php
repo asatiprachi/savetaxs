@@ -8,6 +8,7 @@ class Order extends Model
 {
     //
     protected $table = "order";
+    
     protected $fillable = [
         'email', 'phonenumber','city','state','language',
     ];

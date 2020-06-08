@@ -16,9 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 }) ->name('welcome');
-Route::get('/h', function () {
-    return view('hh');
-});
+Route::post('/order','OrderController@insert');
+
 Route::get('/register', function(){ 
     return view('register');
 });
@@ -158,6 +157,7 @@ Route::get('/tds', function () {
 Route::get('/trade', function () {
     return view('service-pages.trade');
 });
+
 Route::get('/trademark', function () {
     return view('service-pages.trademark');
 });
