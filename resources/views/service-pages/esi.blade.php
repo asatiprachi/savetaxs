@@ -112,108 +112,138 @@
      <h4>Documents required for ESIC registration</h4>
 
 <ul class="a">
-    <li> A registration certificate obtained either under the:
-                     
+    <li> @guest
+    A registration certificate obtained either under the:
+         @else   
+         A registration certificate obtained either under the:
+         
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+              @endguest         
     </li>
     <p>a. Factories Act</p>
         <p>b. Shops and Establishment Act</p>
 
-    <li> Certificate of Registration in case of Company, and Partnership deed in case of a Partnership
-         
+    <li> @guest
+    Certificate of Registration in case of Company, and Partnership deed in case of a Partnership
+         @else
+         Certificate of Registration in case of Company, and Partnership deed in case of a Partnership
+
           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
     </li>
-    <li> Memorandum of Association and Articles of Association of the Company
-         
+    <li> @guest
+    Memorandum of Association and Articles of Association of the Company
+    @else
+    Memorandum of Association and Articles of Association of the Company
+
            <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
            </span>
-         
+           @endguest
     </li>
-    <li> A list of all the employees working in the Establishment
-         
+    <li> @guest
+    A list of all the employees working in the Establishment
+    @else
+    A list of all the employees working in the Establishment
+
            <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
            </span>
-         
+           @endguest
     </li>
-    <li> PAN Card of the Business Entity as well as all the Employees working under the entity
-         
+    <li> @guest
+    PAN Card of the Business Entity as well as all the Employees working under the entity
+    @else 
+    PAN Card of the Business Entity as well as all the Employees working under the entity
+
            <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
            </span>
-         
+           @endguest
     </li>
-    <li> The compensation details of all the employees
-         
+    <li>@guest
+     The compensation details of all the employees
+     @else
+     The compensation details of all the employees
+
            <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
            </span>
-         
+           @endguest
     </li>
-        <li> A cancelled cheque of the Bank Account of the Company
-             
+        <li>@guest
+         A cancelled cheque of the Bank Account of the Company
+         @else  
+         A cancelled cheque of the Bank Account of the Company
+
            <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
            </span>
-         
+           @endguest
         </li>
-    <li> List of Directors of the Company
-         
+    <li> @guest
+    List of Directors of the Company
+    @else 
+    List of Directors of the Company
+
            <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
            </span>
-         
+           @endguest
     </li>
-    <li> List of the Shareholders of the Company
-         
+    <li>@guest
+     List of the Shareholders of the Company
+     @else  
+     List of the Shareholders of the Company
+
            <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
            </span>
-         
+           @endguest
     </li>
-    <li> Register containing the attendance of the employees
-         
+    <li>@guest
+     Register containing the attendance of the employees
+     @else
+     Register containing the attendance of the employees
+
            <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
            </span>
-         
+         @endguest
     </li>
 
 </ul>

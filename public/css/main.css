@@ -1422,104 +1422,100 @@ footer{
 
 /* registration */
 
-.img1 {
-    position: absolute;
-    top: calc( 50vh - 100px);
-    left: calc( 23vw - 100px);
-    width: 200px;
-    height: 200px;
-}
-.regInput{
+
+
+.card{
     width:100%;
-    height:40px;
-    border:solid grey;
-    padding-left:10px;
-    border-radius: 6px;
+    
+margin-left: -100px;
+margin-right: 0px;
+border-right: 0px;
+border: none;
+
+}
+.col-lg-6{
+    width:100%;
+    height:650px;
+    margin:0px;
+    padding:0px;
     outline:none;
 }
-.btn-registration {
-    color: white;
-    background-color: #28E096;
-    text-align: center;
+img{
+    margin-top:30px;
+    margin-bottom:50px;
+    width:160px;
+    height:60px;
+}
+.card-header{
+    text-align:left;
+    font-weight:bold;
+    font-size:45;
+    font-family: open sans;
+    background-color: white;
     border: none;
-    width: 150px;
-    height: 40px;
+    margin-left: 100px;
+}
+
+
+.img1 {
+position: absolute;
+top: calc( 50vh - 100px);
+left: calc( 23vw - 100px);
+width: 200px;
+height: 200px;
+}
+.regInput{
+width:100%;
+height:40px;
+border:solid grey;
+padding-left:10px;
+border-radius: 6px;
+outline:none;
+margin-left: 100px;
+
+}
+.btn-registration {
+color: white;
+background-color: #28E096;
+text-align: center;
+border: none;
+width: 150px;
+height: 40px;
+margin-left: -115px;
+padding-left: 10px;
+
+
+}
+input{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+
 }
 
 .container {
-    margin-left: 0px;
-    margin-right: 0px;
-    border-right: 0px;
+margin-left: 0px;
+margin-right: 0px;
+border-right: 0px;
 }
 
 .registrationcust {
-    margin-left: 100px;
-    display: none;
+margin-left: 100px;
+display: none;
 }
 
 .registrationpart {
-    margin-left: 100px;
-    display: none;
+margin-left: 100px;
+display: none;
 }
 
 .nav-link {
-    font-weight: bold;
-    font-size: 15px;
+font-weight: bold;
+font-size: 15px;
 }
 
-
-
-.navbar-brand {
-    margin-left: 60px;
-    font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
-}
-
-/* login */
-.img1 {
-    position: absolute;
-    top: calc( 40vh - 100px);
-    left: calc( 23vw - 100px);
-    width: 200px;
-    height: 200px;
-}
-
-.btn-login {
-    color: white;
-    background-color: #28E096;
-    text-align: center;
-    border: none;
-    width: 150px;
-    height: 40px;
-}
-
-.container {
-    margin-left: 0px;
-    margin-right: 0px;
-    border-right: 0px;
-}
-
-.logincust {
-    margin-left: 100px;
-    display: none;
-}
-
-.loginpart {
-    margin-left: 100px;
-    display: none;
-}
-
-.nav-link {
-    font-weight: bold;
-    font-size: 15px;
-}
-
-
-
-.navbar-brand {
-    margin-left: 60px;
-    font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
+.regInput{
+    border-radius: 0px;
+    width: 100%;
 }

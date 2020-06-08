@@ -154,115 +154,145 @@
      <h3>Documents required for Income Tax Filing in India</h3>
 
 <ul class="a">
-    <li>	Bank statements
-                  
+    <li>@guest
+    	Bank statements
+          @else  
+          Bank statements
+      
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                       @endguest
                     </li>
     </li>
-    <li> Proof of investments
-                     
+    <li>@guest
+     Proof of investments
+     @else  
+     Proof of investments
+        
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                  
+                          @endguest
                     </li>
     </li>
-    <li> T.D.S. Certificates in Form 16 or 16A as applicable
-                     
+    <li> @guest
+    T.D.S. Certificates in Form 16 or 16A as applicable
+    @else  
+    T.D.S. Certificates in Form 16 or 16A as applicable
+         
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
     </li>
-    <li> Documents on purchase and sale of investments/assets
-                   
+    <li> @guest
+    Documents on purchase and sale of investments/assets
+    @else  
+    Documents on purchase and sale of investments/assets
+       
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
     </li>
-    <li> Challan of tax paid such as advance tax or self-assessment tax
-                     
+    <li> @guest
+    Challan of tax paid such as advance tax or self-assessment tax
+    @else   
+    Challan of tax paid such as advance tax or self-assessment tax
+         
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                     </li>
     </li>
-    <li> If PAN is applied but not received, a copy of filed PAN application and its acknowledgment
-                    
+    <li>@guest
+     If PAN is applied but not received, a copy of filed PAN application and its acknowledgment
+     @else  
+     If PAN is applied but not received, a copy of filed PAN application and its acknowledgment
+       
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                     </li>
     </li>
-    <li> In case not applied for PAN, a PAN application form duly filled in and two passport size photographs
-                     
+    <li> @guest
+    In case not applied for PAN, a PAN application form duly filled in and two passport size photographs
+    @else   
+    In case not applied for PAN, a PAN application form duly filled in and two passport size photographs
+        
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                     </li>
     </li>
-    <li>For businesses - a copy each of the audit report, balance sheet, trading, profit and loss account, 
+    <li>@guest
+    For businesses - a copy each of the audit report, balance sheet, trading, profit and loss account, 
         personal account of proprietor or partners
-                      
+        @else  
+        For businesses - a copy each of the audit report, balance sheet, trading, profit and loss account, 
+        personal account of proprietor or partners          
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest 
         
         </li>
-    <li> Statement of receipts and payments when no regular books are maintained
-                    
+    <li>@guest
+    Statement of receipts and payments when no regular books are maintained
+    @else  
+    Statement of receipts and payments when no regular books are maintained
+      
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest 
     </li>
-    <li> Receipts of payment of insurance premium, provident purchase of NSCs, new equity shares, mutual fund, NSS,
+    <li>@guest
+     Receipts of payment of insurance premium, provident purchase of NSCs, new equity shares, mutual fund, NSS,
          donations, etc. to support claimed deductions
-                       
+         @else         
+         Receipts of payment of insurance premium, provident purchase of NSCs, new equity shares, mutual fund, NSS,
+         donations, etc. to support claimed deductions
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                      
+                          @endguest 
          </li>
 
 

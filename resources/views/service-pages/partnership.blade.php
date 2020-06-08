@@ -117,45 +117,57 @@
      <h3>Documents required to Register a Partnership Firm</h3>
 
 <ul class="a">
-    <li> Application for registration of partnership (Form 1)
-        
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                        
-    </li>
-    <li> Specimen of Affidavit
-     
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                         
-    </li>
-    <li> Certified original copy of Partnership Deed
-    
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
+    <li> @guest
+    Application for registration of partnership (Form 1)
+        @else
+        Application for registration of partnership (Form 1)
 
-    </li>
-    <li> Proof of principal place of business (ownership documents or rental/lease agreement)
-      
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
+    </li>
+    <li>@guest
+     Specimen of Affidavit
+     @else
+     Specimen of Affidavit
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
+    </li>
+    <li> @guest
+    Certified original copy of Partnership Deed
+    @else
+    Certified original copy of Partnership Deed
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
+    </li>
+    <li> @guest
+    Proof of principal place of business (ownership documents or rental/lease agreement)
+    @else
+    Proof of principal place of business (ownership documents or rental/lease agreement)
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest   
     </li>
 </ul>
 

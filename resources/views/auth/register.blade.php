@@ -14,30 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <style>
-    .card{
-        width:90%;
-    }
-    .col-lg-6{
-        width:100%;
-        height:650px;
-        margin:0px;
-        padding:0px;
-        outline:none;
-    }
-    img{
-        margin-top:30px;
-        margin-bottom:50px;
-        width:160px;
-        height:60px;
-    }
-    .card-header{
-        text-align:center;
-        font-weight:bold;
-        font-size:45;
-        font-family: open sans;
-    }
-    </style>
+    
 @extends('layouts.default')
 
 
@@ -45,7 +22,7 @@
 
 <div class="container" style="max-width:100%;">
     <div class="row" style="width:100%;">
-        <div class="col-lg-6">
+        <div class="col-lg-6"  style="width:100%;height:650px;margin:0px;padding:0px;outline:none;">
 
 
           <div class="customer" style="width:100%;height:100%;background-color: #6610f2;">
@@ -54,21 +31,21 @@
           </div>
           
 
-          <form method="POST" class="registrationcust" action="{{ route('register') }}">
+          <form method="POST" class="registrationcust" action="{{ route('register') }}" style="width:100%;height:100%;">
             @csrf
             <img src="/images/png/customer_signup_blue.png" alt="logocust">
 
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header" style="font-family:open sans;font-weight: bold;font-style: italic;font-size: 1.75rem;">{{ __('Register') }}</div>
 
                 <div class="card-body">
                     
 
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
+                            <label for="name" ></label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="regInput" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                <input id="name" type="text" placeholder="Frist Name" class="regInput form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -79,10 +56,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+                            <label for="email"></label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="regInput" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+                                <input id="email" type="email" placeholder="Email"  class="regInput form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -93,10 +70,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+                            <label for="password" ></label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="regInput" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                <input id="password" type="password" placeholder="Password" class=" regInput form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -107,10 +84,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
+                            <label for="password-confirm" ></label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="regInput" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <input id="password-confirm" type="password" placeholder=" Password-confirm"  class="regInput" form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
 
@@ -138,21 +115,21 @@
           </div>
           
 
-          <form method="POST" class="registrationpart" action="{{ route('register') }}">
+          <form method="POST" class="registrationpart" action="{{ route('register') }}" style="width:100%;height:100%;">
             @csrf
             <img src="/images/png/partner_signup_blue.png" alt="logopart">
 
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header"  style="color:#001445;font-size: 1.75rem;font-family:open sans;font-weight: bold;font-style: italic;">{{ __('Register') }}</div>
 
                 <div class="card-body">
                     
 
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
+                            <label for="name" ></label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="regInput" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                <input id="name" type="text" placeholder="Frist Name" class="regInput form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
@@ -163,10 +140,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+                            <label for="email" ></label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="regInput" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+                                <input id="email" type="email" placeholder="Email" class="regInput form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -177,10 +154,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+                            <label for="password" ></label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="regInput" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                <input id="password" type="password" placeholder="Password" class="regInput form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
@@ -191,16 +168,16 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
+                            <label for="password-confirm"></label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="regInput" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                <input id="password-confirm" placeholder="Password-confirm" type="password" class="regInput form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn-registration">
+                                <button type="submit" class="btn-registration" >
                                     {{ __('Register') }}
                                 </button>
                             </div>

@@ -116,45 +116,57 @@
      <h3>Documents Required for Registration</h3>
 
 <ul class="a">
-    <li> Current Bank Account Statement
-       
+    <li>@guest
+     Current Bank Account Statement
+       @else
+       Current Bank Account Statement
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest  
     </li>
-    <li> Registration certificates or licences from various departments
-       
+    <li> @guest
+    Registration certificates or licences from various departments
+    @else
+    Registration certificates or licences from various departments
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest  
     </li>
-    <li> PAN Card/Passport/Aadhar/Driving License
-       
+    <li>@guest
+     PAN Card/Passport/Aadhar/Driving License
+     @else
+     PAN Card/Passport/Aadhar/Driving License
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest 
     </li>
-    <li> Address Proof of Sole Proprietor – Electricity Bill/ Gas Bill
-        
+    <li> @guest
+    Address Proof of Sole Proprietor – Electricity Bill/ Gas Bill
+    @else
+    Address Proof of Sole Proprietor – Electricity Bill/ Gas Bill
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest     
     </li>
 </ul>
 

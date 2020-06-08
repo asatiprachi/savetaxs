@@ -26,7 +26,7 @@
                     <input type="text" class="form-control" placeholder="Phone Number">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="City">
+                    <input type="text" class="form-control" placeholderpri="City">
                 </div>
                 <div class="form-group">
                    

@@ -127,65 +127,84 @@
 <h3>Documents required for FSSAI Registration</h3>
 
 <ul class="a">
-<li> Form B – completed and signed
-     
+<li> @guest
+Form B – completed and signed
+     @else
+     Form B – completed and signed
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-        
+        @endguest
 </li>
-<li> Photo Identity of FBO
-     
+<li> @guest
+Photo Identity of FBO
+     @else
+     Photo Identity of FBO
+
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li> Proof of possession of premises (eg. Rental Agreement )
-     
+<li> @guest
+Proof of possession of premises (eg. Rental Agreement )
+     @else
+     Proof of possession of premises (eg. Rental Agreement )
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> Partnership Deed / Certificate of Incorporation / Articles of Association etc
-     
+<li> @guest
+Partnership Deed / Certificate of Incorporation / Articles of Association etc
+     @else
+     Partnership Deed / Certificate of Incorporation / Articles of Association etc
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li> List of food products to be dealt with
-     
+<li> @guest
+List of food products to be dealt with
+     @else
+     List of food products to be dealt with
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> Food safety management system plan
-      
+<li> @guest
+Food safety management system plan
+      @else
+      Food safety management system plan
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
 
 </ul>
@@ -203,215 +222,278 @@
 <h3>Documents required for Central License </h4>
 
 <ul class="a">
-<li> Form B duly completed and signed
-     
+<li> @guest
+Form B duly completed and signed
+     @else
+     Form B duly completed and signed
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> Plan of the processing unit showing the dimensions and operation-wise area allocation  
-    
+<li> @guest
+Plan of the processing unit showing the dimensions and operation-wise area allocation  
+    @else
+    Plan of the processing unit showing the dimensions and operation-wise area allocation  
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
          </li> 
-<li>List of Directors/ Partners/ Proprietor with address, contact details, and photo ID
-      
+<li>@guest
+List of Directors/ Partners/ Proprietor with address, contact details, and photo ID
+      @else
+      List of Directors/ Partners/ Proprietor with address, contact details, and photo ID
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li> Name and list of equipment and machinery used with the number and installed capacity
-      
+<li> @guest
+Name and list of equipment and machinery used with the number and installed capacity
+      @else
+      Name and list of equipment and machinery used with the number and installed capacity
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-    
+        @endguest
 </li>
-<li> List of food category to be manufactured
-      
+<li> @guest
+List of food category to be manufactured
+      @else
+      List of food category to be manufactured
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li>Authority letter from manufacturer nominated a responsible person name and address
-      
+<li>@guest
+Authority letter from manufacturer nominated a responsible person name and address
+      @else
+      Authority letter from manufacturer nominated a responsible person name and address
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li>Analysis report of water to be used in the process to confirm the portability
-      
+<li>@guest
+Analysis report of water to be used in the process to confirm the portability
+      @else
+      Analysis report of water to be used in the process to confirm the portability
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li> Source of raw material for milk, meat etc
-    
+<li>@guest
+ Source of raw material for milk, meat etc
+    @else
+    Source of raw material for milk, meat etc
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> Recall plan wherever applicable
-    
+<li> @guest
+Recall plan wherever applicable
+    @else
+    Recall plan wherever applicable
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li>Ministry of Commerce Certificate for 100% EOU
-      
+<li>@guest
+Ministry of Commerce Certificate for 100% EOU
+      @else
+      Ministry of Commerce Certificate for 100% EOU
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-    
+        @endguest
 </li>
-<li> NOC/PA document issued by FSSAI
-      
+<li> @guest
+NOC/PA document issued by FSSAI
+      @else
+      NOC/PA document issued by FSSAI
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> IE code document issued by DGFT
-     
+<li> @guest
+IE code document issued by DGFT
+     @else
+     IE code document issued by DGFT
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li> Form IX
-      
+<li> @guest
+Form IX
+      @else
+      Form IX
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> Certificate from Ministry of Tourism 
-       
+<li>@guest
+ Certificate from Ministry of Tourism 
+       @else
+       Certificate from Ministry of Tourism 
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
         </li> 
-<li> Proof of possession of premises
-      
+<li> @guest
+Proof of possession of premises
+      @else
+      Proof of possession of premises
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> Partnership deed/ affidavit of proprietorship
-      
+<li>@guest
+ Partnership deed/ affidavit of proprietorship
+      @else
+      Partnership deed/ affidavit of proprietorship
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-    
+        @endguest
 </li>
-<li> NOC and copy of License from the manufacturer
-     
+<li> @guest
+NOC and copy of License from the manufacturer
+     @else
+     NOC and copy of License from the manufacturer
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-    
+        @endguest
 </li>
-<li> Food safety management system plan or certificate
-      
+<li>@guest
+ Food safety management system plan or certificate
+      @else
+      Food safety management system plan or certificate
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> NOC from the municipality or local body
-      
+<li>@guest
+ NOC from the municipality or local body
+      @else
+      NOC from the municipality or local body
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li> Supporting document for proof of turnover and transportation
-     
+<li> @guest
+Supporting document for proof of turnover and transportation
+     @else
+     Supporting document for proof of turnover and transportation
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li> Declaration form
-     
+<li> @guest
+Declaration form
+     @else
+     Declaration form
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
 </ul>
 </div><br/>
@@ -421,126 +503,161 @@
 <h3>Documents required for State License</h3>
 
 <ul class="a">
-<li>	Form B duly completed and signed
-     
+<li>	@guest
+Form B duly completed and signed
+     @else
+     Form B duly completed and signed
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-    
+        @endguest
 </li>
-<li>	Plan of the processing unit showing the dimensions and operation-wise area allocation 
-        
+<li>	@guest
+Plan of the processing unit showing the dimensions and operation-wise area allocation 
+       @else
+       Plan of the processing unit showing the dimensions and operation-wise area allocation 
+ 
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
         </li>
-<li> List of Directors/ Partners/ Proprietor with address, contact details, and photo ID
-    
-      
+<li>@guest
+ List of Directors/ Partners/ Proprietor with address, contact details, and photo ID
+    @else
+    List of Directors/ Partners/ Proprietor with address, contact details, and photo ID
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li> Name and list of equipment and machinery used with the number and installed capacity
-      
+<li> @guest
+Name and list of equipment and machinery used with the number and installed capacity
+      @else
+      Name and list of equipment and machinery used with the number and installed capacity
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li> List of food category to be manufactured
-      
+<li> @guest
+List of food category to be manufactured
+      @else
+      List of food category to be manufactured
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li> Authority letter from manufacturer nominated a responsible person name and address
-      
+<li> @guest
+Authority letter from manufacturer nominated a responsible person name and address
+      @else
+      Authority letter from manufacturer nominated a responsible person name and address
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> Analysis report of water to be used in the process to confirm the portability
-      
+<li> @guest
+Analysis report of water to be used in the process to confirm the portability
+      @else
+      Analysis report of water to be used in the process to confirm the portability
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> Proof of possession of premises
-      
+<li> @guest
+Proof of possession of premises
+      @else
+      Proof of possession of premises
+
            <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li>	Partnership deed/ affidavit of proprietorship
-      
+<li>	@guest
+Partnership deed/ affidavit of proprietorship
+      @else
+      Partnership deed/ affidavit of proprietorship
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-     
+        @endguest
 </li>
-<li>	NOC and copy of License from the manufacturer
-      
+<li>@guest
+	NOC and copy of License from the manufacturer
+      @else
+      NOC and copy of License from the manufacturer
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li>Copy of certificate obtained under Coop Act 1861/Multi state Coop Act 2002
-      
+<li>@guest
+Copy of certificate obtained under Coop Act 1861/Multi state Coop Act 2002
+      @else
+      Copy of certificate obtained under Coop Act 1861/Multi state Coop Act 2002
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+        @endguest
 </li>
-<li> Food safety management system plan or certificate
-      
+<li>@guest
+ Food safety management system plan or certificate
+     @else 
+     Food safety management system plan or certificate
+
      <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
         </span>
-      
+      @endguest
 </li>
 
 </ul>

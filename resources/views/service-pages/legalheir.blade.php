@@ -118,72 +118,84 @@
             <div id="m3">
                 <h3>Documents required for Legal Heir Certificate?</h3>
                 <ul>
-                    <li>
+                    <li>@guest
                        	Self-undertaking, i.e. an affidavit drafted and notarised.
-                    
+                    @else
+                    Self-undertaking, i.e. an affidavit drafted and notarised.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                         	Documentary Proof of Identity
-                        
+                          @else
+                          Documentary Proof of Identity
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                        	Documentary Proof of the Heir’s Residence
-                        
+                         @else
+                         Documentary Proof of the Heir’s Residence
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                       	Documentary Proof of Date of Birth.
-                       
+                        @else
+                        Documentary Proof of Date of Birth.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                          @endguest
                         </li>
-                    <li>
+                    <li>@guest
                        	Death Certificate of the Deceased Person
-                        
+                         @else
+                         Death Certificate of the Deceased Person
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                         </li>
                         
-                    <li>
+                    <li>@guest
                           	Documentary Proof of the Deceased’s Residence.
-                       
+                            @else
+                            Documentary Proof of the Deceased’s Residence.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                         </li>
                 </ul>
                   

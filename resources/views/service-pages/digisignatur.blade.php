@@ -120,27 +120,10 @@
                           </span>
                         
     </li>
-    <li> PAN card
-                    
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                        
-    </li>
-    <li> Address proof: Aadhaar card/Voter ID/Driving license/Registration Certificate
-                  
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                       
-    </li>
-    <li> Attesting Officer proof
+    <li>@guest
+     PAN card
+         @else  
+         PAN card
          
                           <span>
                             <div class="upload-btn-wrapper">
@@ -148,60 +131,101 @@
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                 @endguest       
+    </li>
+    <li> @guest
+    Address proof: Aadhaar card/Voter ID/Driving license/Registration Certificate
+             @else 
+             Address proof: Aadhaar card/Voter ID/Driving license/Registration Certificate
+    
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                 @endguest      
+    </li>
+    <li> @guest
+    Attesting Officer proof
+        @else 
+        Attesting Officer proof
+
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                   @endguest     
     </li>
 </ul>
 <h3>Indian Organizations Looking to Get DSC Must Submit:</h3>
 <ul class="a">
-    <li>	Organizational PAN
-      
+    <li>@guest
+    	Organizational PAN
+      @else
+      Organizational PAN
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                     @endguest   
     </li>
-    <li>	Partnership deed, if applicable
-         
+    <li>@guest
+    	Partnership deed, if applicable
+        @else 
+        Partnership deed, if applicable
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+             @endguest           
     </li>
-    <li>	List of Authorised Signatories which could be the list of Directors, Board resolution, etc.
-         
+    <li>@guest
+    	List of Authorised Signatories which could be the list of Directors, Board resolution, etc.
+        @else 
+        List of Authorised Signatories which could be the list of Directors, Board resolution, etc.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                     @endguest   
     </li>
-    <li>	Authorised Signatory ID proof
-        
+    <li>@guest
+    	Authorised Signatory ID proof
+       @else 
+       Authorised Signatory ID proof
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                  @endguest      
     </li>
-    <li>	GST certificate
-         
+    <li>	@guest
+    GST certificate
+       @else  
+       GST certificate
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                       
+                 @endguest      
     </li>
 
 </ul>

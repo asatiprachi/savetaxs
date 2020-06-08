@@ -102,86 +102,93 @@
             <div id="m2">
                 <h3>Documents required for Property Verification</h3>
                 <ul>
-                    <li>	Conveyance Deed
-                       
+                    <li>	@guest
+                    Conveyance Deed
+                       @else
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>	Sale Deed
-                        
+                    <li>	@guest
+                    Sale Deed
+                    @else
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                      
+                          @endguest
                     </li>
-                    <li>	Agreement to Sell
-                        
+                    <li>@guest
+                    	Agreement to Sell
+                      @else
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                      
+                          @endguest
                     </li>
-                    <li>	GPA/Power of Attorney
-                       
+                    <li>@guest
+                    	GPA/Power of Attorney
+                      @else
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
                       Will (if any)
-
+                      @else
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest
                     </li>
-                   <li>	Relinquishment Deed
-                      
+                   <li>	@guest
+                   Relinquishment Deed
+                   @else
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                    </li>
-                   <li>	Partition Deed
-                      
+                   <li>@guest
+                   	Partition Deed
+                     @else
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                    </li>
-                   <li>Freehold/Mutation Details etc
-                      
+                   <li>@guest
+                   Freehold/Mutation Details etc
+                   @else
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
                    </li>
 
 

@@ -132,55 +132,70 @@
             <div id="m3">
                 <h3>Documents Required for registration</h3>
                 <ul>
-                    <li>Business address proof
-                      
+                    <li>@guest
+                    Business address proof
+                      @else
+                      Business address proof
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-            
+                          @endguest
                     </li>
-                    <li>Copies of the sale bill and purchase bill
-                       
+                    <li>@guest
+                    Copies of the sale bill and purchase bill
+                    @else
+                    Copies of the sale bill and purchase bill
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                   
+                          @endguest
                     </li>
-                    <li>Partnership deed/ MoA and AoA
-                      
+                    <li>@guest
+                    Partnership deed/ MoA and AoA
+                    @else
+                    Partnership deed/ MoA and AoA
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                   
+                          @endguest
                         </li>
-                    <li>Copy of Licenses
-                        
+                    <li>@guest
+                    Copy of Licenses
+                    @else
+                    Copy of Licenses
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                   
+                          @endguest
                     </li>
-                    <li>Bills of Machinery Purchased
-                        
+                    <li>@guest
+                    Bills of Machinery Purchased
+                    @else
+                    Bills of Machinery Purchased
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                      
+                          @endguest
                         </li>
                 </ul>
                  

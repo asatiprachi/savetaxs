@@ -116,79 +116,97 @@
             <div id="m3">
                 <h3>Documents required for Online Name Change Application</h3>
                 <ul>
-                    <li>	An affidavit on a stamp paper, minimum value should be Rs.10. 
-                        
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
-                   
-                    </li>
-                    <li>The original newspaper cutting of the name change advertisement. A prescribed perform 
-                        in printed format duly signed by the applicant and two witnesses.
-                      
-                          <span>
-                            <div class="upload-btn-wrapper">
-                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
-                            <input type="file" name="myfile" />
-                            </div>
-                          </span>
+                    <li>@guest
+                    	An affidavit on a stamp paper, minimum value should be Rs.10. 
+                        @else
+                        An affidavit on a stamp paper, minimum value should be Rs.10. 
 
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
                     </li>
-                    <li>
+                    <li>@guest
+                    The original newspaper cutting of the name change advertisement. A prescribed perform 
+                        in printed format duly signed by the applicant and two witnesses.
+                        @else
+                        The original newspaper cutting of the name change advertisement. A prescribed perform 
+                        in printed format duly signed by the applicant and two witnesses.
+                          <span>
+                            <div class="upload-btn-wrapper">
+                            <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
+                            <input type="file" name="myfile" />
+                            </div>
+                          </span>
+                          @endguest
+                    </li>
+                    <li>@guest
                       	Two passport size photographs.
-                        
+                        @else
+                        Two passport size photographs.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                   
+                          @endguest
                     </li>
-                   <li>
+                   <li>@guest
                       	Photocopies of valid ID proof ( PAN card, Aadhar card or passport)
-                      
+                        @else
+                        Photocopies of valid ID proof ( PAN card, Aadhar card or passport)
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                   
+                          @endguest
                    </li>
-                   <li>
+                   <li>@guest
                        	A CD with a soft copy of the application in .docx format duly filled.
-                       
+                         @else
+                         A CD with a soft copy of the application in .docx format duly filled.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                    
+                          @endguest
                    </li>
-                   <li>	A letter stating that the content in the hard and soft copy of the application is true.
-                     
+                   <li>@guest
+                   	A letter stating that the content in the hard and soft copy of the application is true.
+                     @else
+                     A letter stating that the content in the hard and soft copy of the application is true.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                   
+                          @endguest
                    </li>
-                   <li>	A request letter along with the registration fee to the authority.
-                     
+                   <li>	@guest
+                   A request letter along with the registration fee to the authority.
+                   @else
+                   A request letter along with the registration fee to the authority.
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                   
+                          @endguest
                    </li>
                 </ul>
                 

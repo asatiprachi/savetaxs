@@ -104,55 +104,70 @@
 </h3>
     <p>For Director (all documents must be self-attested before uploading</p>
     <ul class="a">
-        <li> Passport (Foreign Nationals and NRIs)
-            
+        <li> @guest
+        Passport (Foreign Nationals and NRIs)
+            @else
+            Passport (Foreign Nationals and NRIs)
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
         </li>
-        <li> Passport/Voter’s ID/Driver’s Licence
-            
+        <li>@guest
+         Passport/Voter’s ID/Driver’s Licence
+         @else
+         Passport/Voter’s ID/Driver’s Licence
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                        
+                          @endguest
         </li>
-        <li> Current Bank Account Statement/Phone Bill/ Electricity or Gas Bill
-             
+        <li> @guest
+        Current Bank Account Statement/Phone Bill/ Electricity or Gas Bill
+        @else
+        Current Bank Account Statement/Phone Bill/ Electricity or Gas Bill
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest 
         </li>
-        <li> Passport Sized Photograph
-           
+        <li>@guest
+         Passport Sized Photograph
+         @else
+         Passport Sized Photograph
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest  
         </li>
-        <li> Specimen signature or impression
-           
+        <li>@guest
+         Specimen signature or impression
+         @else
+         Specimen signature or impression
+
                           <span>
                             <div class="upload-btn-wrapper">
                             <button class="btn"><i class="fa fa-upload" aria-hidden="true"></i></button>
                             <input type="file" name="myfile" />
                             </div>
                           </span>
-                         
+                          @endguest       
         </li>
 
 
