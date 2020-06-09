@@ -99,6 +99,7 @@
          <div class="details">
              <div id="m0">
                  <h3>
+
                      TradeLicense
                  </h3>
                   <p>A Trade License is a legal document issued by the local municipality that 

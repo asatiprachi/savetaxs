@@ -14,9 +14,13 @@
 
 <th>Id</th>
 
-<th>Name</th>
+<th>city</th>
 
 <th>Email</th>
+
+<th>state</th>
+
+<th>language</th>
 
 </tr>
 
@@ -24,18 +28,20 @@
 
 <tbody>
 
-$users = DB::table('users')->select('id','name','email')->get();
 
-@foreach($users as $value)
+@foreach($orders as $order)
 
 <tr>
 
-<td>{{ $value->id }}</td>
+<td>{{ $order->id }}</td>
 
-<td>{{ $value->name }}</td>
+<td>{{ $order->city }}</td>
 
-<td>{{ $value->email }}</td>
+<td>{{ $order->email }}</td>
 
+<td>{{ $order->state }}</td>
+
+<td>{{ $order->language }}</td>
 
 </tr>
 

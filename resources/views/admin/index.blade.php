@@ -16,149 +16,140 @@
     <!-- Theme style -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+
+
+    <link href="{{ asset('css/adminlte.min.css') }}" rel="stylesheet">
+
 
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 
-    @extends('layouts.default')
-@section('content')
-
-<style>
-    .content-wrapper{
-  margin-left: 20px;
-
-}
-.wrapper{
-    margin-top: 70px;
-    min-height: 10px;
-    margin-left: 20px;
-
-}
-
-.content-header{
-    margin: 10px;
-}
-
-.nested{
-    border: solid 1px whitesmoke;
-      background-color:whitesmoke;
-      box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-      -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      border-radius: 5px;
-
-    
-}
-
-.grid-container {
-  display: grid;
-  width:280px;
-  height:350px;
-      border: solid 1px whitesmoke;
-      background-color:whitesmoke;
-      box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-      -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      list-style-type: none;
-border-radius: 5px;
-margin-left: 50px;
-margin-top: 10px;
-}
-
-.itm{
-    color: black;
-    font-weight: lighter;
-    margin-top: 20px;
-}
-
-.a{
-    list-style: none;
-    color: black;
-}
-.manue-box{
-        display: inline-block;
-    margin-left: 50px;
 
 
-}
-
-.grid-containers {
-  display: grid;
-  width:280px;
-  height:350px;
-      border: solid 1px whitesmoke;
-      background-color:whitesmoke;
-      box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-      -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-      list-style-type: none;
-border-radius: 5px;
-margin-left: 50px;
-margin-top: 10px;
-}
-
-.itms{
-    text-align: center;
-    color: black;
-    font-weight: lighter;
-    margin-top: 20px;
-}
-
-.ab{
-    list-style: none;
-    color: black;
-}
-.manue-boxs{
-    display: inline-block;
-    margin-left: 50px;
+           
 
 
-}
-.ims{
-    width: 50%;
-    height: 80px;
-    float: left;
+<div class="hold-transition sidebar-mini layout-fixed ">
+<div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="index2.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
 
-}
+            <!-- SEARCH FORM -->
+            <form class="form-inline ml-3">
+                <div class="input-group input-group-sm">
+                    <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-navbar" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    </div>
+                </div>
+            </form>
 
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Messages Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-comments"></i>
+                        <span class="badge badge-danger navbar-badge">3</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        Brad Diesel
+                                        <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">Call me whenever you can...</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        John Pierce
+                                        <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">I got your message bro</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <!-- Message Start -->
+                            <div class="media">
+                                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <div class="media-body">
+                                    <h3 class="dropdown-item-title">
+                                        Nora Silvester
+                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                                    </h3>
+                                    <p class="text-sm">The subject goes here</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                </div>
+                            </div>
+                            <!-- Message End -->
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                    </div>
+                </li>
+                <!-- Notifications Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-bell"></i>
+                        <span class="badge badge-warning navbar-badge">15</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <span class="dropdown-item dropdown-header">15 Notifications</span>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-envelope mr-2"></i> 4 new messages
+                            <span class="float-right text-muted text-sm">3 mins</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-users mr-2"></i> 8 friend requests
+                            <span class="float-right text-muted text-sm">12 hours</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-file mr-2"></i> 3 new reports
+                            <span class="float-right text-muted text-sm">2 days</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
 
-.btn-container{
-  height:44px;
-  width:166.23px;
-  float: right;
-}
-a:active{
-  color:#ffd323;
-}
-button{
-  user-select:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  cursor:pointer;
-  border-radius: 45%;
-  padding:6px;
-  font-size:15px;
-  background-color: green;
-  color:white;
-  font-family:cursive;
-  box-sizing:border-box;
+                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                </li>
 
-  
-}
-
-</style>
-                
-
-
-<div class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
-<div class="container">
+            </ul>
+        </nav>
+        <!-- /.navbar -->
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
@@ -192,10 +183,10 @@ button{
 
                         <li class="nav-item has-treeview">
                             <a id="user_management_a" class="nav-link" onclick="toggleDashboardView(this)">
-                                <i class="fas fa-child"></i>
+                                <i class="fas fa-child" style="margin-left:-30px;"></i>
                                 <p>
                                     Customer Management
-                                    <i class="fas fa-angle-left right"></i>
+                                    <i class="fas fa-angle-left right" style="margin-right:-15px;"></i>
                                 </p>
                             </a>
                         <li>
@@ -410,131 +401,23 @@ button{
             </section>
 
             
-            
-            <section id="blog-management-tab" class=" content-wrapper ">
-
-                <div id="medium-feeds" >
-                    <div id="retainable-rss-embed" data-rss="https://medium.com/feed/LateralX" data-maxcols="2" data-layout="grid" data-poststyle="inline"  data-readmore="Read the rest" data-buttonclass="btn btn-success" data-offset="-200" class="mt-auto " ></div>
-                </div>
-            </section>
-
-            
-            <section id="video-management-tab" class=" content-wrapper ">
-                <br/><br/>
-
-                <h4>My Feed :</h4>
-                <div id="me"></div>
+           <script>
+               function displayMenu(av){
+                  if(document.getElementById('flex').style.display==="none"){
+                  document.getElementById('flex').style.display="block";
+                  }
+                  else{
+                    document.getElementById('flex').style.display="none";
+                  }
+               }
+           </script>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
                 
-                <h4>Remote Feeds :</h4>
-                <div id="remote-container">
-                
-                </div>
-                <h4>Canvas :</h4>
-                <div id="canvas-container">
-                
-                </div>
-            </section>
-<!-- report_feedback_a -->
-            <section id="feedback-management-tab" class="content-wrapper">
-                <div class="imagebg"></div>
-                <div class="row " style="margin-top: 50px">
-                    <div class="col-md-6 col-md-offset-3 form-container">
-                        <h2 class="txt">Feedback</h2>
-                        <p class="txt">
-                            Please provide your feedback below:
-                        </p>
-                       <form  method="post" id="reused_form">
-                            <div class="row">
-                                <div class="col-sm-12 form-group">
-                                <label class="txt">How do you rate your overall experience?</label>
-                                <p>
-                                    <label class="radio-inline txt">
-                                    <input type="radio" name="experience" class="radio_experience" value="bad"  class="txt">
-                                    Bad
-                                    </label>
-                
-                                    <label class="radio-inline txt" >
-                                    <input type="radio" name="experience" class="radio_experience" value="average" >
-                                    Average
-                                     </label>
-                
-                                    <label class="radio-inline txt">
-                                    <input type="radio" name="experience" class="radio_experience" value="good" >
-                                    Good
-                                    </label>
-                                </p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12 form-group txt">
-                                    <label for="comments">
-                                        Comments:</label>
-                                    <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6 form-group">
-                                    <label for="name">
-                                        Your Name:</label>
-                                    <input type="text" class="form-control" id="name" name="name" required>
-                                </div>
-                                <div class="col-sm-6 form-group">
-                                    <label for="email">
-                                        Email:</label>
-                                    <input type="email" class="form-control" id="email" name="email" required>
-                                </div>
-                            </div>
-                
-                                        <div class="row">
-                                <div class="col-sm-12 form-group">
-                                    <button type="submit" class="btn btn-lg btn-warning btn-block" >Submit </button>
-                                </div>
-                            </div>
-                
-                        </form>
-                        <div id="success_message" style="width:100%; height:100%; display:none; ">
-                            <h3>Posted your feedback successfully!</h3>
-                        </div>
-                        <div id="error_message"
-                                style="width:100%; height:100%; display:none; ">
-                                    <h3>Error</h3>
-                                    Sorry there was an error sending your form.
-                
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <script src="dist/js/awesomplete.js"></script>
-	
-            <script>
-                var input = document.getElementById("search");
-            
-                input.addEventListener("awesomplete-selectcomplete", function(e) {
-                    window.location.href = e.text.value;
-                }, false);
-                
-                new Awesomplete(input, {
-                    container: function (tag) {
-                        return ".awesomplete";
-                    },
-                    autoFirst: true,
-                    list: [
-                        { label: "How do I enable payment gateway?", 					value: "article.html" },
-                        { label: "What happens if I clear cache?", 						value: "article1.html" },
-                        { label: "Which payment methods do you offer?", 				value: "article.html" },
-                        { label: "How long does it take to propagate DNS settings?", 	value: "article.html" },
-                        { label: "How can I force SSL certificate?", 					value: "article.html" }
-                    ],
-                    replace: function(suggestion) {
-                        this.input.value = suggestion.label;
-                    }
-                });
-            </script>
         
-
-
+     
+            
             <!-- /.content-wrapper -->
 
             <!-- Control Sidebar -->
@@ -546,6 +429,7 @@ button{
 
         </div>
         <!-- ./wrapper -->
+        <script  src="{{ asset('js/adminlte.js') }}"></script>
 
         <!-- REQUIRED SCRIPTS -->
         <!-- jQuery -->
@@ -555,7 +439,6 @@ button{
         <!-- overlayScrollbars -->
         <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
         <!-- AdminLTE App -->
-        <script src="dist/js/adminlte.js"></script>
                 <!-- help sction script-->
 
         <script src="dist/js/help.js"></script>
@@ -574,7 +457,6 @@ button{
 
         <!---- ChartJS -->
         <!-- PAGE SCRIPTS  -->
-        <script src="dist/js/pages/dashboard2.js"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
         <script>
             var analytics_tab = document.getElementById("analytics-tab");
@@ -658,3 +540,4 @@ button{
                  
                 
         
+       <script  src="{{ asset('js/dashboard2.js') }}" ></script>

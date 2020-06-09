@@ -20,10 +20,9 @@ Route::get('/', function () {
 Route::get('/orderhistory','OrderController@create');
 Route::post('/orderhistory','OrderController@store');
 
+Route::get('/orders', 'OrderController@index')->name('orders');
 
-Route::get('/orders', function(){ 
-    return view('orders');
-})->name('orders');
+
 Route::get('/index', function(){ 
     return view('admin.index');
 });
@@ -31,6 +30,7 @@ Route::get('/index', function(){
 Route::get('/register', function(){ 
     return view('register');
 });
+
 Route::get('/login', function(){ 
     return view('login');
 });
