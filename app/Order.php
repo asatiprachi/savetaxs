@@ -12,6 +12,13 @@ class Order extends Model
     protected $fillable = [
         'email', 'phonenumber','city','state','language',
     ];
+    protected $hidden = [
+         'remember_token',
+    ];
 
+
+    public function users(){
+        return $this ->belongsTo('App\User');
+    }
   
 }

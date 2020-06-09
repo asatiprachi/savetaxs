@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Theme style -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
@@ -353,7 +354,7 @@ display: block;
             <!-- Brand Logo -->
             <a href="/dashboard/admin/index2.html" class="brand-link">
                 <i class="fa fa-user-circle" aria-hidden="true"></i>
-                <span class="brand-text font-weight-light">Dashboard</span>
+                <span class="brand-text font-weight-light">{{ __('Register') }}</span>
             </a>
 
             <!-- Sidebar -->
@@ -586,6 +587,9 @@ display: block;
 
          
          
+          
+                
+        
             </section>
             
 
@@ -646,10 +650,13 @@ display: block;
         <!-- AdminLTE App -->
                 <!-- help sction script-->
 
+        <script src="dist/js/help.js"></script>
 
 
         <!-- OPTIONAL SCRIPTS -->
         <!-- Video-Confrencing-Page SCRIPTS -->
+        <script src="dist/js/scripts/AgoraRTCSDK-2.4.0.js"></script>
+        <script src="dist/js/scripts/script.js"></script>
         <!-- PAGE PLUGINS -->
         <!-- jQuery Mapael -->
         <script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
@@ -706,6 +713,9 @@ display: block;
        
     
 
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+                 
                 
         
        <script  src="{{ asset('js/dashboard2.js') }}" ></script>

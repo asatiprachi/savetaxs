@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Order;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
 
 class OrderController extends Controller
 {
@@ -13,11 +16,14 @@ class OrderController extends Controller
      * @return \Illuminate\Http\Response
      */
    
+    
 
     public function index()
     {
-        //
-    }
+        $orders = order::all();
+
+        return view("orders",["orders"=>$orders]);
+        }
 
     /**
      * Show the form for creating a new resource.
@@ -37,7 +43,8 @@ class OrderController extends Controller
     public function store(Request $request)
     {
         $order = new Order;
-
+        $order->user_id = Auth::user()->id;
+        
         $order->email = $request->input('email');
         $order->phonenumber = $request->input('phonenumber');
         $order->city = $request->input('city');
@@ -45,6 +52,8 @@ class OrderController extends Controller
         $order->language = $request->input('language');
 
         $order->save();
+
+        return redirect('/orders');
     }
 
     /**
@@ -56,6 +65,7 @@ class OrderController extends Controller
     public function show(Order $order)
     {
         //
+        
     }
 
     /**
