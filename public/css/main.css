@@ -1547,10 +1547,10 @@ input:focus{
    
 }
 .nav-tabs>li>a:hover {
-/* margin-right: 2px; */
+ margin-right: 2px; 
   
   border: 1px solid transparent;
-/* border-radius: 4px 4px 0 0; */
+ border-radius: 4px 4px 0 0; 
 }
 .tabs-left>li.active>a,
 .tabs-left>li.active>a:hover,
@@ -1596,17 +1596,7 @@ display: block;
     border-bottom: 1px solid;
     background: honeydew;
     }
-    .content-wrapper{
-        margin-left: 20px;
-      
-      }
-      .wrapper{
-          margin-top: 70px;
-          min-height: 10px;
-          margin-left: 20px;
-      
-      }
-      
+
       .content-header{
           margin: 10px;
       }
