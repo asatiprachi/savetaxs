@@ -23,13 +23,212 @@
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+<style>
+/* admin dashboard */
 
+.content-wrapper{
+  margin-left: 20px;
 
+}
+.wrapper{
+    margin-top: 70px;
+    min-height: 10px;
+    margin-left: 20px;
 
-           
+}
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bodyc{
+    margin: 0;
+    padding: 0;
+}
+input:hover,
+input:focus{
+    outline-style: none;
+    border-bottom-color: rgb(43, 43, 109);
+}
 
-<div class="hold-transition sidebar-mini layout-fixed ">
+.has-treeview .nav-link1{
+    text-align: center;
+    padding: 10px 10px;
+   
+}
+.nav-tabs>li>a:hover {
+ margin-right: 2px; 
+  
+  border: 1px solid transparent;
+ border-radius: 4px 4px 0 0; 
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+border-bottom-color: #ddd;
+border-right-color: transparent;
+
+border:none;
+border-radius:0px;
+margin:0px;
+display: block;
+}
+.wrap{
+    display: grid;       
+    grid-template-columns: repeat(1, auto-fill);
+    grid-template-rows: repeat(2, 300px);
+     grid-gap:10px;
+    
+}
+.nested{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(100px,200px));
+    grid-gap: 5px;
+    background: honeydew;
+    padding: 20px;
+}
+.nested #Imgprofile{
+   width: 200px;
+   height: 200px;
+   padding: 10px;
+}
+.nested li{
+    list-style: none;
+    line-height: 2.0;
+}
+.nested li .Gender{
+    margin-top: 20px;
+    width: 20px;
+}
+.nested li input{
+    width: 180px;
+    border-style: none;
+    border-bottom: 1px solid;
+    background: honeydew;
+    }
+
+      .content-header{
+          margin: 10px;
+      }
+      
+      .nested{
+          border: solid 1px whitesmoke;
+            background-color:whitesmoke;
+            box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            border-radius: 5px;
+      
+          
+      }
+      
+      .grid-container {
+        display: grid;
+        width:280px;
+        height:350px;
+            border: solid 1px whitesmoke;
+            background-color:whitesmoke;
+            box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            list-style-type: none;
+      border-radius: 5px;
+      margin-left: 50px;
+      margin-top: 10px;
+      }
+      
+      .itm{
+          color: black;
+          font-weight: lighter;
+          margin-top: 20px;
+      }
+      
+      .a{
+          list-style: none;
+          color: black;
+      }
+      .manue-box{
+              display: inline-block;
+          margin-left: 50px;
+      
+      
+      }
+      
+      .grid-containers {
+        display: grid;
+        width:280px;
+        height:350px;
+            border: solid 1px whitesmoke;
+            background-color:whitesmoke;
+            box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+            list-style-type: none;
+      border-radius: 5px;
+      margin-left: 50px;
+      margin-top: 10px;
+      }
+      
+      .itms{
+          text-align: center;
+          color: black;
+          font-weight: lighter;
+          margin-top: 20px;
+      }
+      
+      .ab{
+          list-style: none;
+          color: black;
+      }
+      .manue-boxs{
+          display: inline-block;
+          margin-left: 50px;
+      
+      
+      }
+      .ims{
+          width: 50%;
+          height: 80px;
+          float: left;
+      
+      }
+      
+      @import url('https://fonts.googleapis.com/css?family=Raleway');
+      
+      .btn-container{
+        height:44px;
+        width:166.23px;
+        float: right;
+      }
+      a:active{
+        color:#ffd323;
+      }
+      button{
+        user-select:none;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        cursor:pointer;
+        border-radius: 45%;
+        padding:6px;
+        font-size:15px;
+        background-color: green;
+        color:white;
+        font-family:cursive;
+        box-sizing:border-box;
+      
+        
+      }
+      
+</style>
+
+     
+
+<body class="hold-transition sidebar-mini layout-fixed bodyc">
 <div class="wrapper">
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -276,9 +475,16 @@
             <!-- /.sidebar -->
         </aside>
     
-        
+      </div>  
   
-
+      
+      <script>
+        $('.main-header').on('click', function(){
+  $('body').toggleClass('sidebar-collapse');
+});
+    </script>
+    
+     
             <section id="user-management-tab" class="content-wrapper">
 
                 <div class="grid-containers col-lg-6" >
@@ -381,8 +587,24 @@
          
          
             </section>
-
             
+
+
+
+            <section id="analytics-tab" class="content-wrapper">
+           
+          
+        </section>
+
+        
+  
+
+        
+<!-- report_feedback_a -->
+            <section id="feedback-management-tab" class="content-wrapper">
+               
+            </section>
+
            <script>
                function displayMenu(av){
                   if(document.getElementById('flex').style.display==="none"){
@@ -411,7 +633,8 @@
 
         </div>
         <!-- ./wrapper -->
-        <script  src="{{ asset('js/adminlte.js') }}"></script>
+        <!-- <script  src="{{ asset('js/adminlte.js') }}"></script> -->
+        <script src="dist/js/adminlte.js"></script>
 
         <!-- REQUIRED SCRIPTS -->
         <!-- jQuery -->
@@ -440,24 +663,15 @@
         <script>
             var analytics_tab = document.getElementById("analytics-tab");
             var user_management = document.getElementById("user-management-tab");
-            var blog_management = document.getElementById("blog-management-tab");
-            var video_management = document.getElementById("video-management-tab");
             var customer_view = document.getElementById("customer-view-tab");
             var feedback_view = document.getElementById("feedback-management-tab");
-            var chat_view = document.getElementById("chat-management-tab");
-            var notification_view = document.getElementById("notification-management-tab");
-            var helpcenter_view = document.getElementById("helpcenter-management-tab");
 
 
 
             blog_management.style.display = "none";
             user_management.style.display = "none";
-            video_management.style.display = "none";
              customer_view.style.display = "none";
              feedback_view.style.display = "none";
-             chat_view.style.display = "none";
-             notification_view.style.display = "none";
-             helpcenter_view.style.display = "none";
 
 
 
@@ -466,14 +680,8 @@
             function toggleDashboardView(evt) {
                 analytics_tab.style.display = "none";
                 user_management.style.display = "none";
-                blog_management.style.display = "none";
-                video_management.style.display = "none";
                 customer_view.style.display = "none";
                 feedback_view.style.display = "none";
-                chat_view.style.display = "none";
-
-                notification_view.style.display = "none";
-             helpcenter_view.style.display = "none";
 
 
                 var target_element = evt;
@@ -484,28 +692,12 @@
                     case "analytics_a":
                         analytics_tab.style.display = "block";
                         break;
-                    case "blog_management_a":
-                        blog_management.style.display = "block";
-                        break;
-                    case "chat_video_a":
-                    video_management.style.display = "block";
-                        break;
+                    
                     case "customer_view":
                         customer_view.style.display = "block";
                         break;
                     case "report_feedback_a":
                         feedback_view.style.display = "block";
-                        break;
-                        case "chat_a":
-                        chat_view.style.display = "block";
-                        break;
-
-                        case "notification_a":
-                        notification_view.style.display = "block";
-                        break;
-
-                        case "helpcenter_a":
-                        helpcenter_view.style.display = "block";
                         break;
 
                 }
@@ -517,3 +709,4 @@
                 
         
        <script  src="{{ asset('js/dashboard2.js') }}" ></script>
+       </body>
