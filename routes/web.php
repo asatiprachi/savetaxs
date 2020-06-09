@@ -21,7 +21,9 @@ Route::get('/orderhistory','OrderController@create');
 Route::post('/orderhistory','OrderController@store');
 
 
-
+Route::get('/orders', function(){ 
+    return view('orders');
+})->name('orders');
 Route::get('/index', function(){ 
     return view('admin.index');
 });

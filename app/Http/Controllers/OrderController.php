@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Order;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class OrderController extends Controller
 {
@@ -13,6 +14,7 @@ class OrderController extends Controller
      * @return \Illuminate\Http\Response
      */
    
+    
 
     public function index()
     {
@@ -37,7 +39,8 @@ class OrderController extends Controller
     public function store(Request $request)
     {
         $order = new Order;
-
+        $order->user_id = Auth::user()->id;
+        $order->service_id = Auth::user()->id;
         $order->email = $request->input('email');
         $order->phonenumber = $request->input('phonenumber');
         $order->city = $request->input('city');
@@ -45,6 +48,8 @@ class OrderController extends Controller
         $order->language = $request->input('language');
 
         $order->save();
+
+        return redirect('/orders');
     }
 
     /**

@@ -506,118 +506,6 @@ button{
             </section>
 
 
-            <!-- helpdesk section  -->
-         
-            <section id="helpcenter-management-tab" class=" content-wrapper ">
-               <div class="uk-background-muted">
-		<div class="uk-container">
-			<div class="uk-margin">
-				<form class="uk-search uk-search-default uk-width-1-1 awesomplete">
-					<a href="" class="uk-search-icon-flip" data-uk-search-icon></a>
-					<input id="search" class="uk-search-input uk-search-default uk-width-1-1 uk-form-large" type="search" placeholder="Search" autocomplete="off" data-minchars="1" data-maxitems="30" >
-				</form>
-			</div>
-		</div>
-	</div>
-
-	<div class="uk-section uk-background-muted">
-		<div class="uk-container uk-text-center">
-
-			<h1 class="uk-heading-primary uk-margin-medium-bottom" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium;">How can we help?</h1>
-
-			<div class="uk-grid-collapse uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-match uk-text-center" data-uk-grid data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 80">
-				<div>
-					<a href="category.html" class="uk-card card-box uk-card-body uk-border-rounded">
-						<span data-uk-icon="icon: cog; ratio: 3"></span>
-						<p class="uk-margin-medium-top">Getting Started</p>
-					</a>
-				</div>
-				<div>
-					<a href="category.html" class="uk-card card-box uk-card-body uk-border-rounded">
-						<span data-uk-icon="icon: sign-in; ratio: 3"></span>
-						<p class="uk-margin-medium-top">User Login</p>
-					</a>
-				</div>
-				<div>
-					<a href="category.html" class="uk-card card-box uk-card-body uk-border-rounded">
-						<span data-uk-icon="icon: user; ratio: 3"></span>
-						<p class="uk-margin-medium-top">My Account</p>
-					</a>
-				</div>
-				<div>
-					<a href="category.html" class="uk-card card-box uk-card-body uk-border-rounded">
-						<span data-uk-icon="icon: lock; ratio: 3"></span>
-						<p class="uk-margin-medium-top">Security</p>
-					</a>
-				</div>
-				<div>
-					<a href="category.html" class="uk-card card-box uk-card-body uk-border-rounded">
-						<span data-uk-icon="icon: cart; ratio: 3"></span>
-						<p class="uk-margin-medium-top">Ecommerce</p>
-					</a>
-				</div>
-				<div>
-					<a href="category.html" class="uk-card card-box uk-card-body uk-border-rounded">
-						<span data-uk-icon="icon: comments; ratio: 3"></span>
-						<p class="uk-margin-medium-top">Communication</p>
-					</a>
-				</div>
-				<div>
-					<a href="category.html" class="uk-card card-box uk-card-body uk-border-rounded">
-						<span data-uk-icon="icon: settings; ratio: 3"></span>
-						<p class="uk-margin-medium-top">Settings Options</p>
-					</a>
-				</div>
-				<div>
-					<a href="category.html" class="uk-card card-box uk-card-body uk-border-rounded">
-						<span data-uk-icon="icon: code; ratio: 3"></span>
-						<p class="uk-margin-medium-top">Customization</p>
-					</a>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<div class="uk-section">
-		<div class="uk-container">
-			<div class="uk-grid-divider uk-grid-large uk-child-width-1-2@m" data-uk-grid>
-
-				<div>
-					<div class="uk-flex uk-flex-middle" data-uk-grid>
-						<div class="uk-width-auto uk-text-primary">
-							<span data-uk-icon="icon: mail; ratio: 2"></span>
-						</div>
-						<div class="uk-width-4-5">
-							<h5 class="margin-xsmall-bottom">Need more help?</h5>
-							<p class="uk-margin-remove uk-link-reset">Get in touch with us, support is provided daily <a class="button-link" href="contact.html">contact us</a></p>
-						</div>
-					</div>
-				</div>
-
-				<div>
-					<div class="uk-flex uk-flex-middle" data-uk-grid>
-						<div class="uk-width-auto uk-text-primary">
-							<span data-uk-icon="icon: receiver; ratio: 2"></span>
-						</div>
-						<div class="uk-width-4-5">
-							<h5 class="margin-xsmall-bottom">Interested in our products?</h5>
-							<p class="uk-margin-remove">Our sales representatives can help you chose <a class="button-link" href="contact.html">call us</a></p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-	</div>
-
-	
-
-
-            </section>
-            <!-- helpdesk section  script -->
-
             <script src="dist/js/awesomplete.js"></script>
 	
             <script>
@@ -765,19 +653,8 @@ button{
        
     
 
-        <script>
-               function displayMenu(av){
-                  if(document.getElementById('flex').style.display==="none"){
-                  document.getElementById('flex').style.display="block";
-                  }
-                  else{
-                    document.getElementById('flex').style.display="none";
-                  }
-               }
-           </script>
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-            @endsection       
+                 
                 
         

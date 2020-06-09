@@ -8,7 +8,7 @@ class Order extends Model
 {
     //
     protected $table = "order";
-    public $timestamps = true;
+    public $timestamps = false;
     protected $fillable = [
         'email', 'phonenumber','city','state','language',
     ];
@@ -16,7 +16,7 @@ class Order extends Model
          'remember_token',
     ];
 
-    
+
     public function users(){
         return $this ->belongsTo('App\User');
     }
