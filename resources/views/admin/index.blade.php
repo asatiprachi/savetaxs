@@ -25,185 +25,12 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 <style>
-/* admin dashboard */
 
-.content-wrapper{
-  margin-left: 20px;
-
-}
-.wrapper{
-    margin-top: 70px;
-    min-height: 10px;
-    margin-left: 20px;
-
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.bodyc{
-    margin: 0;
-    padding: 0;
-}
-input:hover,
-input:focus{
-    outline-style: none;
-    border-bottom-color: rgb(43, 43, 109);
-}
-
-.has-treeview .nav-link1{
-    text-align: center;
-    padding: 10px 10px;
-   
-}
-.nav-tabs>li>a:hover {
- margin-right: 2px; 
-  
-  border: 1px solid transparent;
- border-radius: 4px 4px 0 0; 
-}
-.tabs-left>li.active>a,
-.tabs-left>li.active>a:hover,
-.tabs-left>li.active>a:focus {
-border-bottom-color: #ddd;
-border-right-color: transparent;
-
-border:none;
-border-radius:0px;
-margin:0px;
-display: block;
-}
-.wrap{
-    display: grid;       
-    grid-template-columns: repeat(1, auto-fill);
-    grid-template-rows: repeat(2, 300px);
-     grid-gap:10px;
-    
-}
-.nested{
-    display: grid;
-    grid-template-columns: repeat(5, minmax(100px,200px));
-    grid-gap: 5px;
-    background: honeydew;
-    padding: 20px;
-}
-.nested #Imgprofile{
-   width: 200px;
-   height: 200px;
-   padding: 10px;
-}
-.nested li{
-    list-style: none;
-    line-height: 2.0;
-}
-.nested li .Gender{
-    margin-top: 20px;
-    width: 20px;
-}
-.nested li input{
-    width: 180px;
-    border-style: none;
-    border-bottom: 1px solid;
-    background: honeydew;
-    }
-
-      .content-header{
-          margin: 10px;
-      }
-      
-      .nested{
-          border: solid 1px whitesmoke;
-            background-color:whitesmoke;
-            box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            border-radius: 5px;
-      
-          
-      }
-      
-      .grid-container {
-        display: grid;
-        width:280px;
-        height:350px;
-            border: solid 1px whitesmoke;
-            background-color:whitesmoke;
-            box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            list-style-type: none;
-      border-radius: 5px;
-      margin-left: 50px;
-      margin-top: 10px;
-      }
-      
-      .itm{
-          color: black;
-          font-weight: lighter;
-          margin-top: 20px;
-      }
-      
-      .a{
-          list-style: none;
-          color: black;
-      }
-      .manue-box{
-              display: inline-block;
-          margin-left: 50px;
-      
-      
-      }
-      
-      .grid-containers {
-        display: grid;
-        width:280px;
-        height:350px;
-            border: solid 1px whitesmoke;
-            background-color:whitesmoke;
-            box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-            -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-            list-style-type: none;
-      border-radius: 5px;
-      margin-left: 50px;
-      margin-top: 10px;
-      }
-      
-      .itms{
-          text-align: center;
-          color: black;
-          font-weight: lighter;
-          margin-top: 20px;
-      }
-      
-      .ab{
-          list-style: none;
-          color: black;
-      }
-      .manue-boxs{
-          display: inline-block;
-          margin-left: 50px;
-      
-      
-      }
-      .ims{
-          width: 50%;
-          height: 80px;
-          float: left;
-      
-      }
-      
-      @import url('https://fonts.googleapis.com/css?family=Raleway');
-      
       .btn-container{
         height:44px;
         width:166.23px;
         float: right;
+        margin-left:100px;
       }
       a:active{
         color:#ffd323;
@@ -222,6 +49,8 @@ display: block;
         font-family:cursive;
         box-sizing:border-box;
       
+
+        
         
       }
       
@@ -382,7 +211,7 @@ display: block;
 
                         <li class="nav-item has-treeview">
                             <a id="user_management_a" class="nav-link" onclick="toggleDashboardView(this)">
-                                <i class="fas fa-child" style="margin-left:-30px;"></i>
+                                <i class="fas fa-child" ></i>
                                 <p>
                                     Customer Management
                                     <i class="fas fa-angle-left right" style="margin-right:-15px;"></i>
@@ -489,7 +318,7 @@ display: block;
             <section id="user-management-tab" class="content-wrapper">
 
                 <div class="grid-containers col-lg-6" >
-                    <div><img src="/dashboard/admin/images/profilepic.jpg" alt="profile" id="Imgprofile" class="ims">
+ <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style="width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);">
                         
                  </div>
                     <li class="itms"> <a href="#" class="ab"> Varification status</a></li>
@@ -500,7 +329,7 @@ display: block;
                     </div>
                   </div class="manue-boxs">
                   <div class="grid-containers col-lg-6" >
-                    <div><img src="/dashboard/admin/images/profilepic.jpg" alt="profile" id="Imgprofile" class="ims">
+                    <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style=" width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);">
                     </div>
                     <li class="itms"> <a href="#" class="ab"> Varification status</a></li>
                     <li class="itms"><a href="#" class="ab">Recent order</a></li>
@@ -510,7 +339,7 @@ display: block;
                         </div>
                   </div>
                   <div class="grid-containers col-lg-6" >
-                    <div><img src="/dashboard/admin/images/profilepic.jpg" alt="profile" id="Imgprofile" class="ims">
+                    <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style="width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);">
                     </div>
                     <li class="itms"> <a href="#" class="ab"> Varification status</a></li>
                     <li class="itms"><a href="#" class="ab">Recent order</a></li>
@@ -525,12 +354,12 @@ display: block;
 
            
 
-            <section  id="customer-view-tab" class="content-wrapper" style="display: inline-block;">
+            <section  id="customer-view-tab" class="content-wrapper" >
              <div class="col-lg-12">
              <div class="wrap">
                 
                <div class="nested col-12 allSides" >
-                  <div><img src="/dashboard/admin/images/profilepic.jpg" alt="profile" id="Imgprofile">
+                  <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile">
                   </div>
                   <div>
                       <li><b>About</b></li><br/>
@@ -552,7 +381,7 @@ display: block;
 
               </div> 
             
-              <div class="grid-container col-lg-4">
+              <div class="grid-container col-lg-6" style="float:left;margin-top:60px;">
                
                 <li class="itm"><a href="#" class="a">Order</a></li>
                 <li class="itm" > <a href="#" class="a">Status</a></li>
@@ -561,7 +390,7 @@ display: block;
                 <li class="itm"> <a href="#" class="a">Payment</a></li>
 
               </div>
-              <div class="grid-container col-lg-4">
+              <div class="grid-container col-lg-6" style="float:left;margin-left:380px;margin-top:-255px;">
                
                 <li class="itm"><a href="#" class="a">Order</a></li>
                 <li class="itm" > <a href="#" class="a">Status</a></li>
@@ -570,7 +399,7 @@ display: block;
                 <li class="itm"> <a href="#" class="a">Payment</a></li>
 
               </div>
-              <div class="grid-container col-lg-4">
+              <div class="grid-container col-lg-6" style="float:left;margin-left:740px;margin-top:-480px;">
                
                 <li class="itm"><a href="#" class="a">Order</a></li>
                 <li class="itm" > <a href="#" class="a">Status</a></li>

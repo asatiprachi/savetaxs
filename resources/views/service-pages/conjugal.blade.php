@@ -17,15 +17,19 @@
         <div class="col-lg-6" id="top2">
             <div class="card0">
                 <h2 style="color:darkblue;"><b>Order Select</b></h2>
+                <form method="POST" action="{{URL('orderhistory')}}">
+                @csrf
+              
                 <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="email" class="form-control" name="email" placeholder="Email">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Phone Number">
+                    <input type="text" class="form-control" name="phonenumber" placeholder="Phone Number">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="City">
+                    <input type="text" class="form-control" name="city" placeholder="City">
                 </div>
+
                 <div class="form-group">
                     
                     <select class="form-control">
@@ -70,8 +74,11 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <input type="button" value="Add To Cart">
+                <button type="submit" class="btn-registration">
+                                    {{ __('Add To Cart') }}
+                                </button>
                 </div>
+</form>
             </div>   
         </div>
         
