@@ -32,6 +32,7 @@
                 <div class="form-group">
                     <input type="text" class="form-control" name="city" placeholder="City">
                 </div>
+
                 <div class="form-group">
                     
                     <select class="form-control" name="state">
@@ -79,7 +80,9 @@
                 <button type="submit" class="btn-registration">
                                     {{ __('Add To Cart') }}
                                 </button>
+                                
                 </div>
+                </form>
             </div>   
         </div>
         
