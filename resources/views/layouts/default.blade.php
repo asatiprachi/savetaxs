@@ -214,8 +214,8 @@
                                 </li>
                             @endif
                         @else
-                            <li class="nav-item dropdown" style="border:2px solid;border-radius:4px;margin-left:100px;">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"  style="color:black;padding:1px;" aria-expanded="false" v-pre>
+                            <li class="nav-item dropdown" >
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"  style="color:white;background-color:slategrey;padding:10px;" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
