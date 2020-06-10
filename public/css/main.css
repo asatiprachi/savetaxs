@@ -42,9 +42,9 @@ nav a {
 }
 
 .brand{
-    font-size: 1.9em;
+    font-size: 2.0em;
     font-weight: 600;
-    color: #001445;
+    color: #052166;
     justify-self: flex-start;
     align-self: center;
     margin-left: 20px;
@@ -54,7 +54,7 @@ nav a {
 
 }
 .brand a{
-    color:#001445;
+    color:#052575;
     text-decoration: none;
 }
 .wrapp{

@@ -30,21 +30,22 @@ body{
     border-radius: 20px;
     float: right;
 }
+.btn-register{
+    background-color: rgb(240, 76, 76);
+    color:white;
+    text-align: center;
+border: none;
+width: 150px;
+height: 40px;
+border-radius: 5px;
+}
 .card0{
     background-color: white;
     padding: 20px 20px;
     margin: 100px;
     border-radius: 4px;
 }
-input[type=button]{
-    background-color:rgb(240, 76, 76);
-    outline: none;
-    border-radius: 6px;
-    border-style: none;
-    width:100px;
-    height: 30px;
-    color: white;
-}
+
 .row{
     background-color: rgb(250, 245, 245);
     width: 100%;

@@ -76,10 +76,11 @@
                     </select>
                 </div>
                 <div class="form-group">
-                <button type="submit" class="btn-registration">
+                <button type="submit" class="btn-register">
                                     {{ __('Add To Cart') }}
                                 </button>
                 </div>
+            </form> 
             </div>   
         </div>
         
@@ -203,7 +204,7 @@
 
   <p>For the foreign nationals, apostilled or notarized copy of the passport has to be submitted mandatorily.
        All documents submitted should be valid. The residence proof documents like the bank statement or the electricity bill must be less than 2 
-       months old.</p>
+       months old.</p>2
       
       
        <button type="submit" id="btn">Submit</button>

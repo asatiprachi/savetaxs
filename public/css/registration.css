@@ -280,7 +280,7 @@ display: block;
         -moz-user-select:none;
         -ms-user-select:none;
         cursor:pointer;
-        border-radius: 45%;
+        border-radius: 5px;
         padding:6px;
         font-size:15px;
         background-color: green;

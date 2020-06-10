@@ -1,15 +1,11 @@
 @extends('layouts.default')
 @section('content')
  
-<div class="container">
-  <div class="row" style="min-width:100%;">
-         <h2> HEllO <span>{{ Auth::user()->name }}</span></h2>
-  </div><br/>
 
-</div>
 
-<section class="order">
- <table class="table">
+<section class="order" style="justify-content: start;align-items: start;">
+<h2> HEllO, <span>{{ Auth::user()->name }}</span></h2>
+ <table class="table1">
 
    <thead>
 
