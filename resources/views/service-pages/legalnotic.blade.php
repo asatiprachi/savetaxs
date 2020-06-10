@@ -34,8 +34,7 @@
                 </div>
 
                 <div class="form-group">
-                   
-                    <select class="form-control">
+                <select class="form-control" name="state">
                         <option selected>Select state</option>
                         <option>Andhra Pradesh</option>
                         <option>Arunachal Pradesh </option>
@@ -70,11 +69,12 @@
                     </select>
                 </div>
                  <div class="form-group">
-                    <select class="form-control">
+                    <select class="form-control" name="language">
                         <option selected>Language</option>
                         <option>English</option>
                         <option>Hindi</option>
                     </select>
+ 
                 </div>
                 <div class="form-group">
                 <button type="submit" class="btn-registration">
