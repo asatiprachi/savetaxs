@@ -301,7 +301,7 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #001446;
+    
 }   
 
 section .title {
@@ -821,10 +821,10 @@ footer ul .h {
    .main .container{
        padding: 0;
    }
-   .card{
+ .service .card{
        width: 245px;
    }
-   .card .head {
+ .service .card .head {
     text-align: center;
     font-size: 1.2em;
     color: #001445;
@@ -832,7 +832,7 @@ footer ul .h {
     margin-top:13px;
 }
 
-.card .price {
+.service .card .price {
     flex-grow: 1;
     align-self: center;
     justify-self: center;
@@ -882,11 +882,11 @@ footer ul .h {
     #img1 {
        width: 100%;
    }
-    .card{
+    .service .card{
         width:200px;
         height: 300px;
     }
-    .cards{
+    .service .cards{
         margin-left: 8em;
     }
     .consult form{
@@ -903,6 +903,10 @@ footer ul .h {
     }
     .contact{
         background-position: -2300% 76%;
+    }
+    #multi-item-example .card-img-top {
+        width: 80%;
+        margin: 50px;
     }
 }
 @media(max-width:1005px){
@@ -933,14 +937,14 @@ footer ul .h {
  #img1 {
 	width: 130%;
 }
-.card{
+.service .card{
     width:180px;
     height: 280px;
 }
-.cards{
+.service .cards{
     margin-left: 6em;
 }
-.card .more{
+.service .card .more{
     margin-bottom: 60px;
 }
 .consult form{
@@ -984,7 +988,7 @@ footer ul .h {
     .main .subtitle{
         margin:45px 0;
     }
-    .card{
+    .service .card{
         width:160px;
         height: 240px;
     }
@@ -1190,7 +1194,20 @@ footer ul .h {
 
       /*End navbar mobile view*/
 }
-
+@media(max-width:770px){
+    #multi-item-example .carousel-item{
+        width:100%;
+        margin-top: 40px;
+      }
+      #multi-item-example .card-img-top{
+          width: 120%;
+          margin: 40px;
+      }
+      #multi-item-example .clearfix{
+          width:150px;
+          margin-right:30px;
+      }
+}
 @media(max-width:700px){
    .main .container{
        margin: 0;
@@ -1200,11 +1217,11 @@ footer ul .h {
     width: 100%;
     padding-left: 40px;
 }
-   .card{
+  .service .card{
        width: 135px;
        height:200px;
    }
-   .cards{
+   .service .cards{
        margin-left:4em;
    }
    .service .card .price{
@@ -1241,6 +1258,7 @@ margin-top: 0px;
 }
 #multi-item-example .clearfix{
     width:150px;
+    margin-right:0px;
 }
 footer{
     display: inline-flex;
@@ -1344,11 +1362,11 @@ footer{
     .choose .content{
         margin-left:30px;
     }
-    .card{
+    .service .card{
         width: 116px;
         height:150px;
     }
-    .cards{
+    .service .cards{
         margin-left:3em;
     }
     .business {
@@ -1365,7 +1383,7 @@ footer{
     .contact .group ul img {
         width: 22px;
     }
-    .cards{
+    .service .cards{
         display: flex;
         flex-direction: row;
         justify-content: center;

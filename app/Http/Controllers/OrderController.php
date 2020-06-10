@@ -20,7 +20,8 @@ class OrderController extends Controller
 
     public function index()
     {
-        $orders = order::all();
+        
+        $orders = DB::table('order')->where('user_id', Auth::user()->id)->get();
 
         return view("orders",["orders"=>$orders]);
         }
