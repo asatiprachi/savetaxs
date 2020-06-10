@@ -82,11 +82,7 @@
                                 </button>
                                 
                 </div>
-<<<<<<< HEAD
-            </form> 
-=======
                 </form>
->>>>>>> 1cf93c5ac225fb08e525050d85b8fb206c05cf71
             </div>   
         </div>
         
