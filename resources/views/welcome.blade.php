@@ -127,7 +127,7 @@ function clickSearch(){
 
   
     <!-- services -->
-    <section class="service">
+    <section class="service" style="background: #001446;">
         <p class="title">Our Services</p>
       <div id="demo" class="carousel slide" data-ride="carousel" data-interval="false" style="width: 100%;">
 

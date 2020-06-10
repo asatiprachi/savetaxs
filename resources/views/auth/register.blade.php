@@ -212,3 +212,4 @@ function registrationPart(bsd) {
 
 
 <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+<link href="{{ asset('css/registration.css') }}" rel="stylesheet">
