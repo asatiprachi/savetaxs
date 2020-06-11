@@ -193,8 +193,9 @@ display: block;
       
       .grid-container {
         display: grid;
-        width:280px;
-        height:350px;
+        float: left;
+        width:300px;
+        height:450px;
             border: solid 1px whitesmoke;
             background-color:whitesmoke;
             box-shadow:  0 0 10px  rgba(0,0,0,0.6);
@@ -225,9 +226,11 @@ display: block;
       }
       
       .grid-containers {
+        float: left;
+
         display: grid;
-        width:280px;
-        height:350px;
+        width:300px;
+        height:450px;
             border: solid 1px whitesmoke;
             background-color:whitesmoke;
             box-shadow:  0 0 10px  rgba(0,0,0,0.6);
@@ -288,5 +291,9 @@ display: block;
         box-sizing:border-box;
       
         
+      }
+
+      .wrapper{
+          min-height: 100px;
       }
       

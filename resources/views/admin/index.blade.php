@@ -322,7 +322,7 @@
 
                 <div class="grid-containers col-lg-6" >
  <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style="width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);">
-                      <h2>Robot</h2>  
+                      <h2 style="margin-top:150px;margin-left:100px;">Robot</h2>  
                  </div>
                     <li class="itms"> <a href="#" class="ab"> Varification status</a></li>
                     <li class="itms"><a href="#" class="ab">Recent order</a></li>
@@ -332,7 +332,7 @@
                     </div>
                   </div class="manue-boxs">
                   <div class="grid-containers col-lg-6" >
-                    <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style=" width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);"><h2>Robot</h2></div>
+                    <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style=" width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);"><h2 style="margin-top:150px;margin-left:100px;">Robot</h2></div>
                     <li class="itms"> <a href="#" class="ab"> Varification status</a></li>
                     <li class="itms"><a href="#" class="ab">Recent order</a></li>
                     <li class="itms"> <a href="#" class="ab"> Task allocation</a></li>
@@ -341,7 +341,7 @@
                         </div>
                   </div>
                   <div class="grid-containers col-lg-6" >
-                    <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style="width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);">                    <h2>Robot</h2>  
+                    <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style="width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);"> <h2 style="margin-top:150px;margin-left:100px;">Robot</h2>  
   
 
                 </div>
@@ -349,7 +349,7 @@
                     <li class="itms"><a href="#" class="ab">Recent order</a></li>
                     <li class="itms"> <a href="#" class="ab"> Task allocation</a></li>
                     <div class="btn-container">
-                        <button id="customer_view" style="float: right;" onclick="toggleDashboardView(this)">Continue</button>
+                        <button id="customer_view"  onclick="toggleDashboardView(this)">Continue</button>
                         </div>
                   </div>
          
@@ -394,7 +394,7 @@
                 <li class="itm"> <a href="#" class="a">Payment</a></li>
 
               </div>
-              <div class="grid-container col-lg-6" style="float:left;margin-left:380px;margin-top:-255px;">
+              <div class="grid-container col-lg-6" style="float:left;margin-left:400px;margin-top:-255px;">
                
                 <li class="itm"><a href="#" class="a">Order</a></li>
                 <li class="itm" > <a href="#" class="a">Status</a></li>
@@ -403,7 +403,7 @@
                 <li class="itm"> <a href="#" class="a">Payment</a></li>
 
               </div>
-              <div class="grid-container col-lg-6" style="float:left;margin-left:740px;margin-top:-480px;">
+              <div class="grid-container col-lg-6" style="float:left;margin-left:740px;margin-top:-460px;">
                
                 <li class="itm"><a href="#" class="a">Order</a></li>
                 <li class="itm" > <a href="#" class="a">Status</a></li>
