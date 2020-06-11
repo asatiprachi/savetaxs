@@ -8,9 +8,9 @@ class Document extends Model
 {
     //
     protected $table = "documents";
-    public $timestamps = true;
+    public $timestamps = false;
     protected $fillable = [
-        'myfile',
+        'doc_name',
     ];
     protected $hidden = [
          'remember_token',
