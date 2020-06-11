@@ -78,7 +78,7 @@
  
                 </div>
                 <div class="form-group">
-                <button type="submit" class="btn-registration">
+                <button type="submit" class="btn-register">
                                     {{ __('Add To Cart') }}
                                 </button>
                 </div>

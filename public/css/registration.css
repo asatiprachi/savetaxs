@@ -37,7 +37,7 @@ img{
 
 .img1 {
 position: absolute;
-top: calc( 50vh - 100px);
+top: calc( 50vh - 180px);
 left: calc( 23vw - 100px);
 width: 200px;
 height: 200px;
