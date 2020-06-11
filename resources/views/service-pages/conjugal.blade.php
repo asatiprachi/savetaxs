@@ -117,7 +117,10 @@
 
             <div id="m2">
                 <h3>Documents Needed</h3>
+                <form method="POST" action="{{URL('document')}}">
+                  @csrf
                 <ul>
+                  
                     <li>@guest
                     	Address proof of husband
                         @else 
@@ -187,6 +190,8 @@
                 </ul>
             
                  <button type="submit" id="btn">Submit</button>
+
+</form>
                  
             </div><br>
 
