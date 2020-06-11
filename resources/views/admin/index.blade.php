@@ -24,6 +24,9 @@
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/registration.css') }}" rel="stylesheet">
+
+
 <style>
 
       .btn-container{
@@ -319,7 +322,7 @@
 
                 <div class="grid-containers col-lg-6" >
  <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style="width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);">
-                        
+                      <h2>Robot</h2>  
                  </div>
                     <li class="itms"> <a href="#" class="ab"> Varification status</a></li>
                     <li class="itms"><a href="#" class="ab">Recent order</a></li>
@@ -329,8 +332,7 @@
                     </div>
                   </div class="manue-boxs">
                   <div class="grid-containers col-lg-6" >
-                    <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style=" width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);">
-                    </div>
+                    <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style=" width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);"><h2>Robot</h2></div>
                     <li class="itms"> <a href="#" class="ab"> Varification status</a></li>
                     <li class="itms"><a href="#" class="ab">Recent order</a></li>
                     <li class="itms"> <a href="#" class="ab"> Task allocation</a></li>
@@ -339,8 +341,10 @@
                         </div>
                   </div>
                   <div class="grid-containers col-lg-6" >
-                    <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style="width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);">
-                    </div>
+                    <div><img src="/images/png/profile.jpg" alt="profile" id="Imgprofile" class="ims" style="width: 100px;height: 100px;border-radius: 100%;margin: auto;position: relative;top: 15px; margin-left:80px; box-shadow: 0 13px 26px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);">                    <h2>Robot</h2>  
+  
+
+                </div>
                     <li class="itms"> <a href="#" class="ab"> Varification status</a></li>
                     <li class="itms"><a href="#" class="ab">Recent order</a></li>
                     <li class="itms"> <a href="#" class="ab"> Task allocation</a></li>
